@@ -1,0 +1,63 @@
+.about__title {
+    font-size: 90px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about__text {
+    text-align:start;
+    font-size: 70px;
+    line-height: 1.2;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -0.03em;
+}
+
+.about__text_coin {
+    text-align: center;
+}
+
+.about__info {
+    margin: 0 auto
+}
+
+.about__info_coin {
+    max-width: 2070px;
+}
+
+.about__info_token {
+    max-width: 1628px;
+}
+
+.about__info_tokens {
+    max-width: 2060px;
+}
+
+.about__info_streamer {
+    max-width: 2270px;
+}
+
+.about__info_how {
+    max-width: 2460px;
+}
+
+.about__title_coin {
+    margin-bottom: 100px;
+}
+
+.about__title_token {
+    margin-bottom: 79px;
+}
+
+.about__title_tokens {
+    margin-bottom: 72px;
+}
+
+.about__title_streamer {
+    margin-bottom: 64px;
+}
+
+.about__title_how {
+    margin-bottom: 70px;
+}

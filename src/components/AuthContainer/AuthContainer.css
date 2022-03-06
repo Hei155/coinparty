@@ -1,0 +1,59 @@
+.authcontainer__block {
+    max-width: 939px;
+    margin: 0 auto;
+    border: 3px solid #929292;
+    border-radius: 20px;
+    margin-bottom: 322px;
+}
+
+.authcontainer__buttons {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.authcontainer__button {
+    margin: 0 auto;
+    margin-bottom: 89px;
+    padding: 0;
+    width: 742px;
+    height: 170px;
+    border: none;
+    border-radius: 20px;
+    font-size: 58px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.authcontainer__button:last-of-type {
+    margin-bottom: 67px;
+}
+
+.authcontainer__button_twitch {
+    color: white;
+    background-color: #9045ff;
+    border: 10px solid #6c35bf;
+}
+
+.authcontainer__button_goggle {
+    background-color: #ffffff;
+    border: 10px solid #929292;
+}
+
+.authcontainer__terms {
+    margin: 0 auto;
+    font-weight: 600;
+    max-width: 742px;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.authcontainer__notice {
+    margin-top: 96px;
+    margin-bottom: 66px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+}
