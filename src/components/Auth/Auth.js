@@ -1,5 +1,6 @@
 import AuthContainer from "../AuthContainer/AuthContainer";
 import About from "../About/About";
+import Footer from "../Footer/Footer";
 
 const Auth = () => {
     return (
@@ -11,6 +12,7 @@ const Auth = () => {
                 <AuthContainer></AuthContainer>
                 <About></About>
             </main>
+            <Footer></Footer>
         </>
     )
 }

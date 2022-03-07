@@ -18,6 +18,10 @@
     text-align: center;
 }
 
+.about__text_action {
+    width: 1450x;
+}
+
 .about__info {
     margin: 0 auto
 }
@@ -31,7 +35,7 @@
 }
 
 .about__info_tokens {
-    max-width: 2060px;
+    max-width: 2123px;
 }
 
 .about__info_streamer {

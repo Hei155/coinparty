@@ -8,16 +8,16 @@ const About = () => {
             </div>
             <div className="about__info about__info_token">
                 <h3 className="about__title about__title_token">Почему именно токен?</h3>
-                <p className="about__text">Токен идеально подходит под концепцию биржи, 
+                <p className="about__text about__text_token">Токен идеально подходит под концепцию биржи, 
 на которой интерес формируется сообществом.</p>
-                <p className="about__text">Представь, что токен - это акция, 
+                <p className="about__text about__text_action">Представь, что токен - это акция, 
 стример - публичная компания, а Coinparty - биржа.</p>
             </div>
             <div className="about__info about__info_tokens">
                 <h3 className="about__title about__title_tokens">Зачем мне токен?</h3>
                 <p className="about__text">Удерживая токен в портфолио, ты сможешь получать часть 
 от дохода креатора на нашей бирже.</p>
-                <p className="about__text">Так как токены после размещения больше не выпускаются,
+                <p className="about__text about__text_growth">Так как токены после размещения больше не выпускаются,
 они могут дорожать при росте спроса и интереса к токену/стримеру.</p>
             </div>
             <div className="about__info about__info_streamer">
