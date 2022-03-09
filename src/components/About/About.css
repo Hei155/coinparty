@@ -6,7 +6,6 @@
 }
 
 .about__text {
-    text-align:start;
     font-size: 70px;
     line-height: 1.2;
     font-weight: 600;
@@ -15,11 +14,16 @@
 }
 
 .about__text_coin {
+    margin: 0;
     text-align: center;
 }
 
 .about__text_action {
-    width: 1450x;
+    max-width: 1300x;
+}
+
+.about__text_how {
+    margin-bottom: 253px;
 }
 
 .about__info {
@@ -51,17 +55,21 @@
 }
 
 .about__title_token {
+    margin-top: 194px;
     margin-bottom: 79px;
 }
 
 .about__title_tokens {
+    margin-top: 162px;
     margin-bottom: 72px;
 }
 
 .about__title_streamer {
+    margin-top: 153px;
     margin-bottom: 64px;
 }
 
 .about__title_how {
+    margin-top: 181px;
     margin-bottom: 70px;
 }

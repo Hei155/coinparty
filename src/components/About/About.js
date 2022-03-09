@@ -27,7 +27,7 @@ const About = () => {
             </div>
             <div className="about__info about__info_how">
                 <h3 className="about__title about__title_how">Как зарабатывает Coinparty?</h3>
-                <p className="about__text">Coinparty получает комиссию c каждой транзакции токена в размере 1,5%, 
+                <p className="about__text about__text_how">Coinparty получает комиссию c каждой транзакции токена в размере 1,5%, 
 а также при размещении (первичной продаже) токена в размере 40%.</p>
             </div>
         </section>

@@ -13,6 +13,7 @@
 }
 
 .authcontainer__button {
+    cursor: pointer;
     margin: 0 auto;
     margin-bottom: 89px;
     padding: 0;
@@ -23,6 +24,9 @@
     font-size: 58px;
     line-height: 1.2;
     font-weight: 600;
+    transition: background-color ease-in-out .3s,
+                border-color ease-in-out .3s;
+
 }
 
 .authcontainer__button:last-of-type {
@@ -31,13 +35,23 @@
 
 .authcontainer__button_twitch {
     color: white;
-    background-color: #9045ff;
-    border: 10px solid #6c35bf;
+    background-color: rgb(145, 71, 255);
+    border: 10px solid rgb(108, 53, 191);
+}
+
+.authcontainer__button_twitch:hover {
+    background-color: rgba(145, 71, 255, .4);
+    border-color: rgb(108, 53, 191, .4);
 }
 
 .authcontainer__button_goggle {
-    background-color: #ffffff;
-    border: 10px solid #929292;
+    background-color: rgb(255, 255, 255);
+    border: 10px solid rgb(146, 146, 146);
+}
+
+.authcontainer__button_goggle:hover {
+    background-color: rgba(255, 255, 255, .4);
+    border-color: rgb(146, 146, 146, .4);
 }
 
 .authcontainer__terms {
