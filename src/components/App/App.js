@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { Routes, Route, useLocation, } from 'react-router-dom';
 import SettingsPage from '../SettingsPage/SettingsPage';
+import ReplenishmentPage from '../ReplenishmentPage/ReplenishmentPage';
 
 import logo from '../../logo.svg';
 import './App.css';
@@ -23,6 +24,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Auth/>}/>
         <Route path="/settings" element={<SettingsPage/>}/>
+        <Route path="/replenishment" element={<ReplenishmentPage/>}/>
       </Routes>
     </div>
   );
