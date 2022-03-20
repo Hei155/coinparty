@@ -9,3 +9,13 @@
 @import url(../src/components/SettingsThanks/SettingsThanks.css);
 @import url(../src/components/ReplenishmentPage/ReplenishmentPage.css);
 @import url(../src/components/PaymentInfo/PaymentInfo.css);
+@import url(../src/components/Portfolio/Portfolio.css);
+@import url(../src/components/PortfolioInfo/PortfolioInfo.css);
+@import url(../src/components/PortfolioTokens/PortfolioTokens.css);
+@import url(../src/components/PortfolioProfileContent/PortfolioProfileContent.css);
+@import url(../src/components/CreateAcc/CreateAcc.css);
+@import url(../src/components/TokenInfo/TokenInfo.css);
+@import url(../src/components/TokenPage/TokenPage.css);
+@import url(../src/components/Tokens/Tokens.css);
+@import url(../src/components/TokensStatus/TokensStatus.css);
+@import url(../src/components/UsersAssets/UsersAssets.css);

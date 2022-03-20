@@ -1,13 +1,16 @@
 .header {
     color: black;
+    border-bottom: 2px solid #d5d5d5;
+    padding-top: 69px;
+    padding-bottom: 13px;
+}
+
+.header__wrapper {
     display: flex;
     max-width: 2267px;
     margin: 0 auto;
     width: calc(100% - 200px);
     justify-content: space-between;
-    border-bottom: 2px solid #d5d5d5;
-    padding-top: 69px;
-    padding-bottom: 13px;
 }
 
 .header__logo {
@@ -63,4 +66,37 @@
     font-weight: 600;
     letter-spacing: -0.03em;
     color: #646464;
+}
+
+.header__button {
+    width: 294px;
+    height: 92px;
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    border: 3px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    transition: border-color ease-in-out .3s,
+                opacity ease-in-out .3s;
+}
+
+.header__button:hover {
+    opacity: .7;
+}
+
+.header__button_twitch {
+    border-color:rgb(107, 40, 208);
+    color: #6b28d0;
+    margin-right: 47px;
+}
+
+.header__button_goggle:hover {
+    border-color: rgba(0, 0, 0, .4);
+}
+
+.header__button_twitch:hover {
+    border-color: rgba(107, 40, 208, .4);
 }

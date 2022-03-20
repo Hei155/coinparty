@@ -1,0 +1,47 @@
+.token__block {
+    color: black;
+    width: 100%;
+}
+
+.token__list {
+    padding: 0;
+    width: calc(100% - 90px);
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.token__profile-list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.token__owner {
+    display: inline;
+}
+
+.token__signature {
+    display: inline;
+    font-size: 35px;
+    font-weight: 500;
+    margin-right: 25px;
+}
+
+.token__info {
+    font-size: 35px;
+    display: inline;
+}
+
+.token__nick {
+    font-size: 35px;
+    color: rgb(104, 102, 102);
+}
+
+.token__avatar {
+    width: 100px;
+    margin-right: 40px;
+}

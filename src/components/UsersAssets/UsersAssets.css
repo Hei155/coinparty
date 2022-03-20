@@ -1,0 +1,58 @@
+.assets {
+    color: black;
+}
+
+.assets__grid {
+    max-width: 2275px;
+    margin: 0 auto;
+    border: 2px solid #d5d5d5;;
+    border-radius: 15px;
+}
+
+.assets__headers {
+    margin: 67px 189px 67px 48px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax);
+}
+
+.assets__header {
+    font-size: 35px;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    color: #929292;
+}
+
+.assets__nickname {
+    font-size: 30px;
+}
+
+.assets__signature {
+    font-size: 30px;
+    color: #929292;
+    
+}
+
+.assets__data-text {
+    font-size: 30px;
+}
+
+.assets__data-sold {
+    color: green;
+    font-size: 30px;
+    display: block;
+}
+
+.assets__profile {
+    display: flex;
+}
+
+.assets__profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.assets__avatar {
+    width: 110px;
+}

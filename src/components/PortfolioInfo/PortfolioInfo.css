@@ -1,0 +1,88 @@
+.portfolio__info {
+    letter-spacing: -0.03em;
+}
+
+.portfolio__container {
+    max-width: 2267px;
+    margin: 0 auto;
+    border: 2px solid #d5d5d5;
+    border-radius: 10px;
+    height: 760px;
+}
+
+.portfolio__options {
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.portfolio__cost {
+    display: inline;
+    font-size: 30px;
+    color: rgb(80, 79, 79);
+    font-weight: 600;
+    margin: 0 50px 0 0px;
+}
+
+.portfolio__dividends {
+    font-weight: 600;
+    display: inline;
+    font-size: 30px;
+    color: rgb(104, 102, 102);
+}
+
+.portfolio__values {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.portfolio__cost-value {
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.portfolio__cost-difference {
+    font-size: 30px;
+    color: green;
+}
+
+.portfolio__token-message {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(104, 102, 102);
+    display: block;
+    margin-top: 190px;
+    text-align: center;
+}
+
+.portfolio__date-period {
+    margin: 0;
+    margin-top: 310px;
+    text-align: center;
+    font-size: 27px;
+    list-style-type: none;
+}
+
+.portfolio__date {
+    cursor: pointer;
+    display: inline;
+    color: rgb(104, 102, 102);
+    margin-right: 90px;
+    transition: opacity ease-in-out .3s;
+}
+
+.portfolio__date:hover {
+    opacity: .4;
+}
+
+.portfolio__date_select {
+    color: black;
+}
+
+.portfolio__date:last-of-type {
+    margin-right: 0;
+}
+

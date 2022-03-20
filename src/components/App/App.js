@@ -2,6 +2,8 @@ import React, { useRef } from 'react';
 import { Routes, Route, useLocation, } from 'react-router-dom';
 import SettingsPage from '../SettingsPage/SettingsPage';
 import ReplenishmentPage from '../ReplenishmentPage/ReplenishmentPage';
+import PortfolioPage from '../PortfolioPage/PortfolioPage';
+import TokenPage from '../TokenPage/TokenPage';
 
 import logo from '../../logo.svg';
 import './App.css';
@@ -25,6 +27,8 @@ function App() {
         <Route path="/" element={<Auth/>}/>
         <Route path="/settings" element={<SettingsPage/>}/>
         <Route path="/replenishment" element={<ReplenishmentPage/>}/>
+        <Route path="/portfolio" element={<PortfolioPage/>}/>
+        <Route path="/token" element={<TokenPage/>}/>
       </Routes>
     </div>
   );

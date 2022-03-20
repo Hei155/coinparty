@@ -1,3 +1,115 @@
+.payment__container {
+    border: 2px solid #d5d5d5;
+    max-width: 2271px;
+    margin: 0 auto;
+    margin-top: 91px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 .payment__count {
-    
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+
+.payment__sum {
+    color: #646464;
+    font-size: 28px;
+    display: block;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.payment__input {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 0;
+    border-radius: 10px;
+    width: 450px;
+    height: 70px;
+    border-color: black;
+    border-radius: 25px;
+}
+
+.payment__submit {
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    border-color: black;
+    border-radius: 25px;
+    width: 250px;
+    height: 70px;
+    font-size: 20px;
+    color: #646464;
+    margin-bottom: 40px;
+}
+
+.payment__contacts {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.payment__commission {
+    color: black;
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 70px;
+}
+
+.payment__logo {
+    width: 60px;
+    height: 50px;
+}
+
+.payment__logo:first-of-type {
+    margin-right: 19px;
+}
+
+.payment__action {
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.payment__action-button {
+    border: none;
+    padding: 0;
+    color: #646464;
+    font-size: 40px;
+    background-color: transparent;
+}
+
+.payment__action-button:first-of-type {
+    margin-right: 50px;
+}
+
+.payment__action-button_inc {
+    color: #4e4d4d;
+}
+
+.payment__history {
+    border: 2px solid #d5d5d5;
+    max-width: 2271px;
+    margin: 0 auto;
+}
+
+.payment__history-title {
+    color: black;
+    font-size: 34px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 600px;
+}
+
+.payment__history-default {
+    font-size: 28px;
+    color: #4e4d4d;
+    display: block;
+    text-align: center;
+    margin-bottom: 600px;
 }

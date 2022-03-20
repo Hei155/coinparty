@@ -1,0 +1,125 @@
+.portfolio__profile {
+    margin-top: 81px;
+    margin-bottom: 74px;
+}
+
+.portfolio__grid {
+    border: 2px solid #d5d5d5;
+    border-radius: 15px;
+    max-width: 2267px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "new learn dividends"
+                         "profile development development";
+    grid-template-rows: 254px 500px;
+}
+
+.portfolio__cell {
+    border: 2px solid #d5d5d5;
+}
+
+.portfolio__cell:nth-child(1) {
+    grid-area: new;
+}
+
+.portfolio__cell:nth-child(2) {
+    grid-area: learn;
+}
+
+.portfolio__cell:nth-child(3) {
+    grid-area: dividends;
+}
+
+.portfolio__cell:nth-child(4) {
+    grid-area: profile;
+}
+
+.portfolio__cell:nth-child(5) {
+    grid-area: development;
+}
+
+.portfolio__cell:nth-child(6) {
+    grid-area: development;
+}
+
+.portfolio__cell-title {
+    margin: 0;
+    padding-top: 45px;
+    padding-bottom: 24px;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+.portfolio__cell-text {
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.portfolio__cell-text:first-of-type {
+    margin-bottom: 10px;
+}
+
+.portfolio__cell-signature {
+    color: #d5d5d5;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.portfolio__cell-value {
+    color: black;
+    font-size: 56px;
+    font-weight: 700;
+    margin-right: 25px;
+}
+
+.portfolio__cell-count {
+    color: green;
+    font-size: 30px;
+}
+
+.portfolio__cell-text_green {
+    color: green;
+}
+
+.portfolio__cell_profile {
+    display: flex;
+}
+
+.portfolio__cell-title_nick {
+    display: inline;
+    margin-right: 35px;
+}
+
+.portfolio__cell-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.portfolio__pepe-work {
+    width: 230px;
+    margin-bottom: 30px;
+}
+
+.portfolio__cell_development {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio__cell-container:first-of-type {
+    margin-bottom: 30px;
+}
+
+.portfolio__avatar {
+    width: 162px;
+    height: 162px;
+    align-self: center;
+    margin: 0 35px;
+}

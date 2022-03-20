@@ -1,5 +1,6 @@
 import Header from "../Header/Header";
 import PaymentInfo from "../PaymentInfo/PaymentInfo";
+import SettingsThanks from '../SettingsThanks/SettingsThanks';
 import Footer from "../Footer/Footer";
 
 const ReplenishmentPage = () => {
@@ -7,6 +8,7 @@ const ReplenishmentPage = () => {
         <>
             <Header/>
             <PaymentInfo/>
+            <SettingsThanks/>
             <Footer/>
         </>
     )

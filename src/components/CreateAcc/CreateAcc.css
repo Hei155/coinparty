@@ -1,0 +1,40 @@
+.portfolio__account {
+    width: 100%;
+    height: 470px;
+    background-color: #f0ede4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.portfolio__about {
+    color: black;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    max-width: 2050px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.button__pepe {
+    padding-left: 84px;
+}
+
+.portfolio__button {
+    width: 471px;
+    height: 131px;
+    border: 1px solid #9d5d41;
+    border-radius: 20px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    transition: opacity ease-in-out .4s;
+    cursor: pointer;
+}
+
+.portfolio__button:hover {
+    opacity: .4;
+}
