@@ -10,9 +10,12 @@ const Header = (props) => {
                         <li className='header__link-element'>Токены</li>
                         <li className='header__link-element'>Портфолио</li>
                         <li className='header__link-element'>О Нас</li>
-                        {props.isAuth ? 
+                        {
+                        props.isAuth ? 
                         <li className='header__link-element'>Настройки</li> :
-                        <></>}
+                        <>
+                        </>
+                        }
                     </ul>
                 </nav>
                 <div className='header__container'>

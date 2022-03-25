@@ -143,3 +143,26 @@
         margin-top: 30px;
     }
 }
+
+@media screen and (max-width: 719px) {
+    .authcontainer__button {
+        width: calc(100% - 20px);
+        font-size: 22px;
+    }
+
+    .authcontainer__block {
+        max-width: 428px;
+        width: calc(100% - 40px);
+        margin-bottom: 60px;
+    }
+
+    .authcontainer__terms {
+        font-size: 12px;
+    }
+
+    .authcontainer__notice {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+}

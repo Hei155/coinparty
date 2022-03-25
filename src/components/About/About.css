@@ -157,3 +157,45 @@
     }
     
 }
+
+@media screen and (max-width: 719px) {
+    .about__info {
+        width: calc(100% - 40px);
+    }
+
+    .about__title {
+        font-size: 18px;
+    }
+
+    .about__text {
+        font-size: 12px;
+    }
+
+    .about__title_coin {
+        margin-bottom: 15px;
+    }
+    
+    .about__title_token {
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    
+    .about__title_tokens {
+        margin-top: 44px;
+        margin-bottom: 10px;
+    }
+    
+    .about__title_streamer {
+        margin-top: 41px;
+        margin-bottom: 10px;
+    }
+    
+    .about__title_how {
+        margin-top: 56px;
+        margin-bottom: 10px;
+    }
+
+    .about__text_how {
+        margin-bottom: 60px;
+    }
+}
