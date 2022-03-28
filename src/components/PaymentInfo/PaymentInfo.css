@@ -113,3 +113,57 @@
     text-align: center;
     margin-bottom: 600px;
 }
+
+
+@media screen and (max-width: 2300px) {
+    .payment__count {
+        margin-top: 50px;   
+        font-size: 80px;
+    }
+
+    .payment__action-button {
+        font-size: 30px;
+    }
+
+    .payment__sum {
+        font-size: 24px;
+    }
+
+    .payment__input {
+        width: 400px;
+    }
+
+    .payment__submit  {
+        width: 200px;
+    }
+
+    .payment__commission {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1919px) {
+    .payment__count {
+        font-size: 60px;
+    }
+
+    .payment__action {
+        margin-bottom: 35px;
+    }
+
+    .payment__action-button {
+        font-size: 25px;
+    }
+
+    .payment__sum {
+        font-size: 20px;
+    }
+
+    .payment__input {
+        margin-bottom: 34px;
+    }
+
+    .payment__sumbit {
+        margin-bottom: 34px;
+    }
+}
