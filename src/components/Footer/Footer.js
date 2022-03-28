@@ -14,8 +14,10 @@ const Footer = () => {
                         <li className='footer__icon-element'><Link to="/"><img className='footer__icon' src={vkLogo} alt="ВКонтакте"/></Link></li>
                         <li className='footer__icon-element'><Link to="/"><img className='footer__icon' src={twitterLogo} alt="Твиттер"/></Link></li>
                     </ul>
-                    <p className='footer__contacts'>Coinparty 2021</p>
-                    <p className='footer__contacts'>Не сотрудничаем с Twitch</p>
+                    <div className='footer__credits'>
+                        <p className='footer__contacts'>Coinparty 2021</p>
+                        <p className='footer__contacts'>Не сотрудничаем с Twitch</p>
+                    </div>
                 </div>
                 <div className='footer__info'>
                     <h3 className='footer__quotes'>Важные вопросы</h3>

@@ -7,8 +7,8 @@
 .footer__container {
     display: flex;
     margin: 0 auto;
-    justify-content: center;
-    width: calc(100% - 150px);
+    justify-content: space-between;
+    width: calc(100% - 200px);
 }
 
 .footer__about {
@@ -133,6 +133,10 @@
 }
 
 @media screen and (max-width: 2416px) {
+    .footer__about {
+        margin-right: 0;
+    }
+
     .footer__contacts {
         font-size: 20px;
     }
@@ -153,6 +157,10 @@
 
     .footer__dis-text {
         font-size: 20px;
+    }
+
+    .footer__logo {
+        font-size: 50px;
     }
 }
 
@@ -192,7 +200,6 @@
 
     .footer__logo {
         margin: 0;
-        font-size: 50px;
     }
 
     .footer__icon-list {
@@ -242,6 +249,10 @@
 }
 
 @media screen and (max-width: 1279px) {
+    .footer__about {
+        margin-right: 30px;
+    }
+
     .footer__quotes {
         line-height: 1.2;
     }
@@ -257,6 +268,10 @@
 }
 
 @media screen and (max-width: 799px) {
+    .footer__about {
+        margin-right: 0;
+    }
+    
     .footer__quotes {
         text-align: center;
     }
@@ -287,12 +302,16 @@
     }
 
     .footer__about {
-        margin-right: 0;
-        width: calc(100% - 40px);
+
+        margin-top: 20px;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .footer__container {
         width: calc(100% - 40px);
+        justify-content: left;
     }
 
     .footer__contacts {
@@ -305,18 +324,38 @@
 
     .footer__icon-list {
         justify-content: space-between;
+        display: inline;
+        margin-top: 10px;
     }
 
     .footer__icon-element {
         margin: 0;
+        display: inline;
+        margin-right: 30px;
+    }
+
+    .footer__icon-element:last-of-type {
+        margin-right: 0;
     }
 
     .footer__container {
         flex-wrap: wrap-reverse;
-        
     }
 
     .footer__info {
-        width: calc(100% - 40px);
+        width: 100%;
     }
+
+    .footer__quotes {
+        margin-bottom: 10px;
+    }
+
+    .footer__dis {
+        margin-bottom: 10px;
+    }
+
+    .footer__dis-text:first-of-type {
+        margin-bottom: 10px;
+    }
+
 }

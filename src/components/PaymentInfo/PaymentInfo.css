@@ -1,6 +1,7 @@
 .payment__container {
     border: 2px solid #d5d5d5;
     max-width: 2271px;
+    width: calc(100% - 200px);
     margin: 0 auto;
     margin-top: 91px;
     border-top-left-radius: 10px;
@@ -82,6 +83,12 @@
     color: #646464;
     font-size: 40px;
     background-color: transparent;
+    transition: opacity ease-in-out .4s;
+    cursor: pointer;
+}
+
+.payment__action-button:hover {
+    opacity: .4;
 }
 
 .payment__action-button:first-of-type {
@@ -96,6 +103,11 @@
     border: 2px solid #d5d5d5;
     max-width: 2271px;
     margin: 0 auto;
+    justify-content: center;
+    width: calc(100% - 200px);
+    margin-bottom: 136px;
+    display: flex;
+    flex-direction: column;
 }
 
 .payment__history-title {
@@ -116,6 +128,14 @@
 
 
 @media screen and (max-width: 2300px) {
+    .payment__container {
+        width: calc(100% - 450px);
+    }
+
+    .payment__history {
+        width: calc(100% - 450px);
+    }
+
     .payment__count {
         margin-top: 50px;   
         font-size: 80px;
@@ -131,10 +151,19 @@
 
     .payment__input {
         width: 400px;
+        height: 50px;
+        text-align: center;
     }
 
     .payment__submit  {
         width: 200px;
+        height: 50px;
+        transition: opacity ease-in-out .4s;
+        cursor: pointer;
+    }
+
+    .payment__submit:hover {
+        opacity: .4;
     }
 
     .payment__commission {
@@ -165,5 +194,15 @@
 
     .payment__sumbit {
         margin-bottom: 34px;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .payment__container {
+        width: calc(100% - 150px);
+    }
+
+    .payment__history {
+        width: calc(100% - 150px);
     }
 }

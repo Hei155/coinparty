@@ -13,7 +13,7 @@ const PaymentInfo = () => {
                 <span className='payment__sum'>Укажите сумму</span>
                 <form className="payment__form">
                     <label className="payment__field">
-                        <input className="payment__input"></input>
+                        <input className="payment__input" type="number"></input>
                     </label>
                     <button className="payment__submit">Продолжить</button>
                 </form>

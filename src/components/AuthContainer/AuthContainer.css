@@ -148,6 +148,7 @@
     .authcontainer__button {
         width: calc(100% - 20px);
         font-size: 22px;
+        height: 60px;
     }
 
     .authcontainer__block {

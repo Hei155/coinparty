@@ -77,3 +77,36 @@
     letter-spacing: -0.03em;
     color: #b51700;
 }
+
+@media screen and (max-width: 2300px) {
+    .profile__main {
+        margin-top: 90px;
+        padding-bottom: 103px;
+    }
+
+    .profile__container {
+        width: calc(100% - 800px)
+    }
+
+    .profile__username {
+        font-size: 50px;
+        padding: 34px 0 41px;
+    }
+    
+    .profile__title {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .profile__input {
+        font-size: 25px;
+    }
+
+    .profile__input:last-of-type {
+        margin-bottom: 50px;
+    }
+
+    .profile__exit {
+        font-size: 25px;
+    }
+}

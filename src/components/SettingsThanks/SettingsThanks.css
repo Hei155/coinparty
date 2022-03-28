@@ -2,22 +2,32 @@
     background-color: #f0ede4;
     width: 100%;
     height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .thanks__pepe {
     display: block;
-    padding-top: 180px;
-    padding-bottom: 18px;
     margin: 0 auto;
 }
 
 .thanks__title {
-    margin: 0;
-    padding-bottom: 169px;
     font-size: 50px;
     line-height: 1.2;
     font-weight: 700;
     letter-spacing: -0.03em;
     color: #000000;
     text-align: center;
+}
+
+@media screen and (max-width: 2300px) {
+    .thanks-container {
+        height: 350px;
+    }
+
+    .thanks__title {
+        margin: 0;
+        margin-top: 10px;
+    }
 }
