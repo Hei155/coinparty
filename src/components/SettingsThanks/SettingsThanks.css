@@ -31,3 +31,13 @@
         margin-top: 10px;
     }
 }
+
+@media screen and (max-width: 1279px) {
+    .thanks__title {
+        font-size: 35px;
+    }
+
+    .thanks__pepe {
+        width: 60px;
+    }
+}

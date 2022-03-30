@@ -179,6 +179,7 @@
 
     .header__button_twitch {
         margin: 0;
+        margin-bottom: 20px;
     }
 
     .header__link-element:first-of-type {
@@ -192,5 +193,11 @@
 
     .header__link-element:last-of-type {
         margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .header__link-element {
+        font-size: 20px;
     }
 }
