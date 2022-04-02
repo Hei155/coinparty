@@ -206,3 +206,13 @@
         width: calc(100% - 150px);
     }
 }
+
+@media screen and (max-width: 719px) {
+    .payment__container {
+        width: calc(100% - 40px);
+    }
+
+    .payment__history {
+        width: calc(100% - 40px);
+    }
+}

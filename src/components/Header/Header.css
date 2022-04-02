@@ -201,3 +201,27 @@
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 719px) {
+    .header__wrapper {
+        width: calc(100% - 40px);
+    }
+
+    .header__logo {
+        width: 200px;
+    }
+
+    .header__link-element:first-of-type {
+        font-size: 15px;
+    }
+
+    .header__link-element {
+        font-size: 15px;
+    }
+
+    .header__button {
+        width: 170px;
+        font-size: 15px;
+        height: 50px;
+    }
+}

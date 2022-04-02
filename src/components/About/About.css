@@ -73,11 +73,11 @@
 
 @media screen and (max-width: 2416px) {
     .about__title {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .about__text {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .about__title_coin {

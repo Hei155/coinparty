@@ -320,12 +320,13 @@
 
     .footer__logo {
         font-size: 25px;
+        margin-bottom: 10px;
     }
 
     .footer__icon-list {
         justify-content: space-between;
         display: inline;
-        margin-top: 10px;
+        margin: 10px 10px 0;
     }
 
     .footer__icon-element {

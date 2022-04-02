@@ -79,8 +79,8 @@
     }
 
     .authcontainer__button {
-        font-size: 40px;
-        height: 130px;
+        font-size: 32px;
+        height: 110px;
         margin-bottom: 59px;
     }
     
@@ -147,7 +147,7 @@
 @media screen and (max-width: 719px) {
     .authcontainer__button {
         width: calc(100% - 20px);
-        font-size: 22px;
+        font-size: 20px;
         height: 60px;
     }
 
