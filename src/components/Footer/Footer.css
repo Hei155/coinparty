@@ -212,6 +212,10 @@
 }
 
 @media screen and (max-width: 1498px) {
+    .footer {
+        padding-top: 55px;
+    }
+
     .footer__quotes-list {
         font-size: 14px; 
     }
@@ -234,10 +238,6 @@
 }
 
 @media screen and (max-width: 1279px) {
-    .footer__logo {
-        font-size: 50px;
-    }
-
     .footer__container {
         width: calc(100% - 100px);
     }
@@ -246,9 +246,7 @@
         font-size: 10px;
         text-align: center;
     }
-}
 
-@media screen and (max-width: 1279px) {
     .footer__about {
         margin-right: 30px;
     }
@@ -268,6 +266,10 @@
 }
 
 @media screen and (max-width: 799px) {
+    .footer {
+        padding-top: 45px;
+    }
+
     .footer__about {
         margin-right: 0;
     }
@@ -286,6 +288,10 @@
 }
 
 @media screen and (max-width: 719px) {
+    .footer {
+        padding-top: 35px;
+    }
+     
     .footer__quotes {
         line-height: 1.2;
         font-size: 12px;

@@ -169,8 +169,15 @@
 }
 
 @media screen and (max-width: 1439px) {
+    .header {
+        padding-top: 40px;
+    }
     .header__wrapper {
         width: calc(100% - 150px);
+    }
+
+    .header__logo {
+        width: 190px;
     }
 
     .header__container {
@@ -183,16 +190,19 @@
     }
 
     .header__link-element:first-of-type {
-        font-size: 24px;
+        font-size: 18px;
         margin-right: 25px;
     }
 
     .header__link-element:nth-child(2) {
+        font-size: 18px;
         margin-right: 25px;
+        font-size: 18px;
     }
 
     .header__link-element:last-of-type {
         margin-right: 0;
+        font-size: 18px;
     }
 }
 
