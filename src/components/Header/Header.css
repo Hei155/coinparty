@@ -20,6 +20,11 @@
 
 .header__container {
     display: flex;
+}
+
+.header__user-container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -39,6 +44,11 @@
     letter-spacing: -0.03em;
     transition: opacity ease-in-out .4s;
     cursor: pointer;
+}
+
+.header__link {
+    text-decoration: none;
+    color: black;
 }
 
 .header__link-element:hover {
@@ -113,18 +123,30 @@
 }
 
 @media screen and (max-width: 2300px) {
+    .header {
+        padding-top: 49px;
+    }
+
     .header__link-element:last-of-type {
         margin-right: 20px;
     }
 
+    .header__username {
+        font-size: 25px;
+    }
+
+    .header__balance {
+        font-size: 25px;
+    }
+
     .header__button {
-        width: 260px;
-        height: 80px;
-        font-size: 23px;
+        width: 250px;
+        height: 70px;
+        font-size: 20px;
     }
 
     .header__link-element {
-        font-size: 28px;
+        font-size: 20px;
     }
 
     .header__link-element:first-of-type {
@@ -136,12 +158,8 @@
     }
 
     .header__logo {
-        width: 250px;
+        width: 230px;
         margin-right: 70px;
-    }
-    
-    .header__wrapper {
-        width: calc(100% - 450px);
     }
 
     .header__button_twitch {
@@ -186,7 +204,7 @@
 
     .header__button_twitch {
         margin: 0;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .header__link-element:first-of-type {
@@ -200,9 +218,21 @@
         font-size: 18px;
     }
 
+    .header__link-element:nth-of-type(3) {
+        margin-right: 25px;
+    }
+
     .header__link-element:last-of-type {
         margin-right: 0;
         font-size: 18px;
+    }
+
+    .header__username {
+        font-size: 20px;
+    }
+
+    .header__balance {
+        font-size: 20px;
     }
 }
 
@@ -215,23 +245,52 @@
 @media screen and (max-width: 719px) {
     .header__wrapper {
         width: calc(100% - 40px);
+        flex-wrap: wrap;
     }
 
     .header__logo {
-        width: 200px;
+        width: 140px;
     }
 
     .header__link-element:first-of-type {
         font-size: 15px;
+        margin-right: 10px;
     }
 
-    .header__link-element {
+    .header__link-element:nth-child(2) {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+    .header__link-element:last-of-type {
         font-size: 15px;
     }
 
     .header__button {
-        width: 170px;
-        font-size: 15px;
+        width: 140px;
+        font-size: 13px;
         height: 50px;
+    }
+}
+
+@media screen and (max-width: 389px) {
+    .header {
+        padding-top: 30px;
+    }
+
+    .header__container {
+        margin-top: 10px;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .header__button {
+        margin: 0;
+        width: 130px;
+    }
+
+    .header__link-list {
+        margin-top: 15px;
     }
 }

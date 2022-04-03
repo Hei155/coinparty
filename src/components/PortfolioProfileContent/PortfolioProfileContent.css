@@ -123,3 +123,50 @@
     align-self: center;
     margin: 0 35px;
 }
+
+@media screen and (max-width: 2300px) {
+    .portfolio__grid {
+        grid-template-rows: 254px 450px;
+    }
+
+    .portfolio__grid {
+        width: calc(100% - 200px);
+    }
+
+    .portfolio__cell-title {
+        font-size: 40px;
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+
+    .portfolio__cell-text {
+        font-size: 20px;
+    }
+
+    .portfolio__cell-signature {
+        font-size: 30px;
+    }
+
+    .portfolio__cell-value {
+        font-size: 35px;
+    }
+
+    .portfolio__cell-count {
+        font-size: 20px;
+    }
+
+    .portfolio__avatar {
+        width: 120px;
+        height: 120px;
+    }
+
+    .portfolio__pepe-work {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .portfolio__grid {
+        grid-template-columns: repeat(auto-fit, max-content);
+    }
+}

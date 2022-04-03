@@ -138,25 +138,25 @@
     }
 
     .footer__contacts {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .footer__quotes {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .footer__quotes-list {
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 34px;
     }
 
     .footer__dis {
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 20px;
     }
 
     .footer__dis-text {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .footer__logo {
@@ -175,22 +175,6 @@
 
     .footer__quotes-elements:last-of-type {
         margin-right: 0;
-    }
-
-    .footer__quotes-list {
-        font-size: 18px; 
-    }
-
-    .footer__dis {
-        font-size: 18px;
-    }
-
-    .footer__dis-text {
-        font-size: 18px;
-    }
-
-    .footer__contacts {
-        font-size: 18px;
     }
 
     .footer__icon {

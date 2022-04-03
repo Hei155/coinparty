@@ -4,7 +4,7 @@ import Portfolio from "../Portfolio/Portfolio";
 import Footer from "../Footer/Footer";
 
 const PortfolioPage = () => {
-    const [isAuth, setIsAuth] = React.useState(false);
+    const [isAuth, setIsAuth] = React.useState(true);
     return (
         <>
             <Header isAuth={isAuth}/>

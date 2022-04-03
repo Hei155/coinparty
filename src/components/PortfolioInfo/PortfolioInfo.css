@@ -4,6 +4,7 @@
 
 .portfolio__container {
     max-width: 2267px;
+    width: calc(100% - 200px);
     margin: 0 auto;
     border: 2px solid #d5d5d5;
     border-radius: 10px;
@@ -86,3 +87,30 @@
     margin-right: 0;
 }
 
+@media screen and (max-width: 2300px) {
+    .portfolio__cost {
+        font-size: 20px;
+    }
+
+    .portfolio__dividends {
+        font-size: 20px;
+    }
+
+    .portfolio__cost-value {
+        font-size: 40px;
+    }
+
+    .portfolio__cost-difference {
+        font-size: 23px;
+    }
+
+    .portfolio__token-message {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .portfolio__container {
+        width: calc(100% - 150px);
+    }
+}

@@ -138,15 +138,15 @@
 
     .payment__count {
         margin-top: 50px;   
-        font-size: 80px;
+        font-size: 60px;
     }
 
     .payment__action-button {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .payment__sum {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .payment__input {
@@ -168,6 +168,7 @@
 
     .payment__commission {
         padding-bottom: 50px;
+        font-size: 18px;
     }
 }
 
@@ -205,6 +206,27 @@
     .payment__history {
         width: calc(100% - 150px);
     }
+
+    .payment__logo {
+        width: 40px;
+        height: 35px;
+    }
+
+    .payment__count {
+        font-size: 50px;
+    }
+
+    .payment__action-button {
+        font-size: 20px;
+    }
+
+    .payment__sum {
+        font-size: 20px;
+    }
+
+    .payment__history-title {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 719px) {
@@ -214,5 +236,30 @@
 
     .payment__history {
         width: calc(100% - 40px);
+    }
+
+    .payment__input {
+        height: 40px;
+        width: 80%;
+    }
+
+    .payment__submit {
+        height: 40px;
+    }
+
+    .payment__count {
+        font-size: 35px;
+    }
+
+    .payment__history-title {
+        font-size: 25px;
+    }
+
+    .payment__action-button {
+        font-size: 16px;
+    }
+
+    .payment__sum {
+        font-size: 16px;
     }
 }
