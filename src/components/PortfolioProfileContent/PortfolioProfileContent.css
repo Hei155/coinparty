@@ -164,8 +164,19 @@
 }
 
 @media screen and (max-width: 1439px) {
+    .portfolio__cell_profile {
+        justify-content: center;
+    }
+    
+    .portfolio__avatar {
+        margin-left: 0;
+    }
+
     .portfolio__cell-title {
         font-size: 25px;
+        padding: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .portfolio__cell-text {
@@ -194,13 +205,46 @@
 }
 
 @media screen and (max-width: 767px) {
+    .portfolio__cell-count {
+        margin-bottom: 10px;
+    }
+    
+    .portfolio__pepe-work {
+        width: 120px;
+    }
+
+    .portfolio__cell-container:first-of-type {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .portfolio__cell-container:last-of-type {
+        display: flex;
+        flex-direction: column;
+    }
+
     .portfolio__avatar {
         width: 80px;
         height: 80px;
+        margin-right: 15px;
+    }
+
+    .portfolio__cell-title_nick {
+        margin-right: 15px;
+    }
+
+    .portfolio__cell-value {
+        margin-right: 15px;
     }
 
     .portfolio__cell-title {
         font-size: 21px;
+        margin-right: 0;
+    }
+
+    .portfolio__cell-title_nick {
+        text-align: left;
     }
 
     .portfolio__cell-signature {
@@ -209,6 +253,7 @@
 
     .portfolio__cell-value {
         font-size: 21px;
+        margin-bottom: 10px;
     }
 
     .portfolio__cell-text {
@@ -224,8 +269,12 @@
     }
 
     .portfolio__cell:nth-child(1) {
-        height: 150px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
+
 }
 
 @media screen and (max-width: 719px) {

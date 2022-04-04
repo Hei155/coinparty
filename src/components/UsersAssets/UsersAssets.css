@@ -3,6 +3,7 @@
 }
 
 .assets__grid {
+    width: calc(100% - 200px);
     max-width: 2275px;
     margin: 0 auto;
     border: 2px solid #d5d5d5;;
@@ -10,7 +11,7 @@
 }
 
 .assets__headers {
-    padding: 60px 189px 0 48px;
+    padding: 60px 0 0 60px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     align-items: center;
@@ -67,4 +68,30 @@
 .assets__avatar {
     width: 110px;
     margin-right: 29px;
+}
+
+@media screen and (max-width: 2300px) {
+    .assets__header {
+        font-size: 30px;
+    }
+
+    .assets__data-text {
+        font-size: 25px;
+    }
+
+    .assets__data-sold {
+        font-size: 25px;
+    }
+
+    .assets__nickname {
+        font-size: 25px;
+    }
+
+    .assets__signature {
+        font-size: 25px;
+    }
+
+    .assets__avatar {
+        width: 80px;
+    }
 }

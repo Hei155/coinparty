@@ -1,6 +1,7 @@
 import TokensStatus from "../TokensStatus/TokensStatus";
 import UsersAssets from "../UsersAssets/UsersAssets";
 import Contacts from "../Contacts/Contacts";
+import CreateAcc from "../CreateAcc/CreateAcc";
 
 const Tokens = () => {
     return (
@@ -8,6 +9,7 @@ const Tokens = () => {
             <TokensStatus/>
             <UsersAssets/>
             <Contacts/>
+            <CreateAcc/>
         </main>
     )
 }

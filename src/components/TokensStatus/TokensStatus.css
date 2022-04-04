@@ -4,7 +4,8 @@
 }
 
 .status__container {
-    max-width: 2275px;
+    width: calc(100% - 200px);
+    max-width: 2267px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -57,6 +58,7 @@
 }
 
 .status__tokens {
+    width: calc(100% - 200px);
     max-width: 2275px;
     margin: 0 auto;
     margin-top: 78px;
@@ -101,6 +103,7 @@
 
 .status__available-game {
     display: inline;
+    margin-right: 30px;
 }
 
 .status__available-tokens {
@@ -118,4 +121,127 @@
     font-weight: 700;
     letter-spacing: -0.04em;
     color: #047101;
+}
+
+@media screen and (max-width: 2300px) {
+    .status__profile {
+        margin-left: 15px;
+    }
+
+    .status__text {
+        font-size: 25px;
+    }
+
+    .status__about {
+        font-size: 25px;
+    }
+
+    .status__views {
+        font-size: 25px;
+        margin-left: 15px;
+    }
+
+    .status__nick {
+        font-size: 25px;
+    }
+
+    .status__cell {
+        width: 100%;
+        height: 300px;
+        margin-right: 60px;
+    }
+
+    .status__cell:last-of-type {
+        margin-right: 0;
+    }
+
+    .status__avatar {
+        width: 80px;
+    }
+
+    .status__available-tokens {
+        font-size: 20px;
+    }
+
+    .status__available-game {
+        font-size: 20px;
+    }
+
+    .status__development {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .status__container {
+        width: calc(100% - 150px);
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .status__cell {
+        margin-right: 0;
+        width: 270px;
+    }
+
+    .status__cell:last-of-type {
+        margin-right: 0;
+    }
+
+    .status__text {
+        font-size: 20px;
+    }
+
+    .status__about {
+        font-size: 20px;
+    }
+
+    .status__nick {
+        font-size: 20px;
+    }
+
+    .status__views {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .status__avatar {
+        width: 60px;
+    }
+
+    .status__profile {
+        margin-left: 10px;
+    }
+
+    .status__tokens {
+        width: calc(100% - 150px);
+    }
+    
+    .status__available-tokens {
+        font-size: 18px;
+    }
+
+    .status__available:first-of-type {
+        margin-right: 30px;
+    }
+
+    .status__available-game {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    .status__development {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1019px) {
+    .status__tokens {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .status__available_game {
+        width: calc(100% - 100px);
+    }
 }

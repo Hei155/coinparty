@@ -13,7 +13,7 @@ const Header = (props) => {
                         <li className='header__link-element'><Link className='header__link' to="/">О Нас</Link></li>
                         {
                         props.isAuth ? 
-                        <li className='header__link-element'>Настройки</li> :
+                        <li className='header__link-element'><Link className='header__link' to="/settings">Настройки</Link></li> :
                         <>
                         </>
                         }

@@ -16,16 +16,16 @@ const Contacts = () => {
                 чтобы узнавать о новых токенах и предлагать свои идеи.
             </p>
             <div className="contacts__buttons">
-                <img src={pepeSleep} alt="Пепе"/>
-                <img src={twoPepe} alt="Пепе"/>
-                <img src={pepeWithFlower} alt="Пепе"/>
-                <img src={pepeWithTable} alt="Пепе"/>
+                <img className="contacts__pic" src={pepeSleep} alt="Пепе"/>
+                <img className="contacts__pic" src={twoPepe} alt="Пепе"/>
+                <img className="contacts__pic" src={pepeWithFlower} alt="Пепе"/>
+                <img className="contacts__pic" src={pepeWithTable} alt="Пепе"/>
                 <button className="contacts__button">Telegram</button>
                 <button className="contacts__button">VK</button>
-                <img src={pepeScientist} alt="Пепе"/>
-                <img src={pepeWeird} alt="Пепе"/>
-                <img src={pepeSanta} alt="Пепе"/>
-                <img src={pepeGlasses} alt="Пепе"/>
+                <img className="contacts__pic" src={pepeScientist} alt="Пепе"/>
+                <img className="contacts__pic" src={pepeWeird} alt="Пепе"/>
+                <img className="contacts__pic" src={pepeSanta} alt="Пепе"/>
+                <img className="contacts__pic" src={pepeGlasses} alt="Пепе"/>
             </div>
         </section>
     )

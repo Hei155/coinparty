@@ -203,6 +203,10 @@
         width: calc(100% - 150px);
     }
 
+    .payment__history-default {
+        font-size: 25px;
+    }
+
     .payment__history {
         width: calc(100% - 150px);
     }
@@ -231,6 +235,10 @@
 }
 
 @media screen and (max-width: 719px) {
+    .payment__history-default {
+        font-size: 20px;
+    }
+
     .payment__container {
         width: calc(100% - 40px);
     }
@@ -253,7 +261,7 @@
     }
 
     .payment__history-title {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .payment__action-button {
