@@ -80,10 +80,6 @@
         font-size: 30px;
     }
 
-    .portfolio__date-period {
-        font-size: 23px;
-    }
-
     .portfolio__params-element {
         font-size: 23px;
     }
@@ -108,5 +104,57 @@
 
     .portfolio__token-page {
         font-size: 24px;
+    }
+
+    .portfolio__params-element {
+        font-size: 20px;
+    }
+
+    .portfolio__params-element:first-of-type {
+        padding-right: 120px;
+    }
+}
+
+@media screen and (max-width: 1079px) {
+    .portfolio__params {
+        width: calc(100% - 45px);
+    }
+
+    .portfolio__params-element:first-of-type {
+        padding-right: 0;
+    }
+
+    .portfolio__params-element {
+        font-size: 18px;
+    }
+
+    .portfolio__pepe {
+        width: 60px;
+    }
+
+    .portfolio__failure {
+        font-size: 20px;
+    }
+
+    .portfolio__token-page {
+        font-size: 16px;
+        padding: 10px 14px;
+    }
+
+}
+
+@media screen and  (max-width: 767px) {
+    .portfolio__params {
+        width: calc(100% - 10px);
+    }
+
+    .portfolio__params-element {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .portfolio__tokens-info {
+        width: calc(100% - 40px);
     }
 }

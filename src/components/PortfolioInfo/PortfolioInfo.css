@@ -107,10 +107,66 @@
     .portfolio__token-message {
         font-size: 25px;
     }
+
+    .portfolio__date-period {
+        font-size: 23px;
+    }
 }
 
 @media screen and (max-width: 1439px) {
     .portfolio__container {
         width: calc(100% - 150px);
+    }
+
+    .portfolio__date {
+        margin-right: 60px;
+    }
+
+    .portfolio__date-period {
+        font-size: 20px;
+        padding-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .portfolio__date {
+        margin-right: 30px;
+    }
+
+    .portfolio__cost-value {
+        font-size: 30px;
+        margin-right: 5px;
+    }
+
+    .portfolio__values {
+        margin-left: 5px;
+    }
+
+    .portfolio__options {
+        margin: 10px 0 0 5px;
+    }
+
+    .portfolio__cost-difference {
+        font-size: 18px;
+    }
+
+    .portfolio__cost {
+        font-size: 18px;
+        margin-right: 15px;
+    }
+
+    .portfolio__dividends {
+        font-size: 18px;
+    }
+
+    .portfolio__token-message {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .portfolio__container {
+        width: calc(100% - 40px);
     }
 }

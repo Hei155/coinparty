@@ -5,7 +5,7 @@ import ProfileSettings from "../ProfileSettings/ProfileSettings";
 import SettingsThanks from "../SettingsThanks/SettingsThanks";
 
 const SettingsPage = () => {
-    const [isAuth, setIsAuth] = React.useState(true);
+    const [isAuth, setIsAuth] = React.useState(false);
     return (
         <>
             <Header isAuth={isAuth}/>

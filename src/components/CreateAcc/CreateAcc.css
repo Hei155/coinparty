@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .portfolio__about {
@@ -28,7 +29,6 @@
     height: 131px;
     border: 1px solid #9d5d41;
     border-radius: 20px;
-    margin: 0 auto;
     font-weight: 700;
     font-size: 50px;
     display: flex;
@@ -64,5 +64,34 @@
         width: 380px;
         height: 90px;
         font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1079px) {
+    .portfolio__button {
+        width: 280px;
+    }
+
+    .button__pepe {
+        padding-left: 15px;
+    }
+
+    .portfolio__about {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .portfolio__about {
+        font-size: 16px;
+    }
+
+    .button__pepe {
+        width: 50px;
+        padding-left: 35px;
+    }
+
+    .portfolio__button {
+        height: 60px;
     }
 }

@@ -11,7 +11,6 @@
     display: grid;
     grid-template-areas: "new learn dividends"
                          "profile development development";
-    grid-template-rows: 254px 500px;
 }
 
 .portfolio__cell {
@@ -20,6 +19,7 @@
 
 .portfolio__cell:nth-child(1) {
     grid-area: new;
+    height: 250px;
 }
 
 .portfolio__cell:nth-child(2) {
@@ -36,6 +36,7 @@
 
 .portfolio__cell:nth-child(5) {
     grid-area: development;
+    height: 500px;
 }
 
 .portfolio__cell:nth-child(6) {
@@ -125,9 +126,6 @@
 }
 
 @media screen and (max-width: 2300px) {
-    .portfolio__grid {
-        grid-template-rows: 254px 450px;
-    }
 
     .portfolio__grid {
         width: calc(100% - 200px);
@@ -166,7 +164,72 @@
 }
 
 @media screen and (max-width: 1439px) {
+    .portfolio__cell-title {
+        font-size: 25px;
+    }
+
+    .portfolio__cell-text {
+        font-size: 18px;
+    }
+
+    .portfolio__cell-signature {
+        font-size: 25px;
+    }
+
+    .portfolio__cell-value {
+        font-size: 25px;
+    }
+
+    .portfolio__cell-count {
+        font-size: 18px;
+    }
+
     .portfolio__grid {
-        grid-template-columns: repeat(auto-fit, max-content);
+        width: calc(100% - 150px);
+        grid-template-areas: "profile profile"
+                         "new learn"
+                         "dividends dividends"
+                         "development development";
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .portfolio__avatar {
+        width: 80px;
+        height: 80px;
+    }
+
+    .portfolio__cell-title {
+        font-size: 21px;
+    }
+
+    .portfolio__cell-signature {
+        font-size: 21px;
+    }
+
+    .portfolio__cell-value {
+        font-size: 21px;
+    }
+
+    .portfolio__cell-text {
+        font-size: 16px;
+    }
+
+    .portfolio__grid {
+        grid-template-areas: "profile profile"
+                         "new new"
+                         "learn learn"
+                         "dividends dividends"
+                         "development development";
+    }
+
+    .portfolio__cell:nth-child(1) {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .portfolio__grid {
+        width: calc(100% - 40px);
     }
 }
