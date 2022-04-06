@@ -71,12 +71,24 @@
 }
 
 @media screen and (max-width: 2300px) {
+    .assets__profile {
+        flex-direction: column;
+    }
+
     .assets__header {
-        font-size: 30px;
+        font-size: 25px;
+    }
+
+    .assets__headers {
+        padding-left: 30px;
+    }
+    
+    .assets__avatar {
+        margin-right: 15px;
     }
 
     .assets__data-text {
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .assets__data-sold {
@@ -93,5 +105,28 @@
 
     .assets__avatar {
         width: 80px;
+    }
+
+    .assets__headers {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+    .assets__grid {
+        width: calc(100% - 150px);
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .assets__headers {
+        grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+        padding-left: 10px;
+    }
+
+    .assets__header {
+        font-size: 18px;
+    }
+
+    .assets__nickname {
+        font-size: 20px;
     }
 }

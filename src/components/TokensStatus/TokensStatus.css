@@ -241,6 +241,10 @@
         align-items: center;
     }
 
+    .status__available {
+        margin-bottom: 30px ;
+    }
+
     .status__available_game {
         width: calc(100% - 100px);
     }
