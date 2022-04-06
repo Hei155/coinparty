@@ -2,6 +2,7 @@ import avatar from "../../images/avatar.png";
 import UserTokenData from "../UserTokenData/UserTokenData";
 
 const UsersAssets = () => {
+
     return (
         <section className="assets">
             <div className="assets__grid">

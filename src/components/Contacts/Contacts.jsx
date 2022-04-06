@@ -1,3 +1,4 @@
+import React from "react";
 import pepeSleep from '../../images/layer_132.png';
 import twoPepe from '../../images/layer_134.png';
 import pepeWithFlower from '../../images/layer_140.png';
@@ -8,6 +9,13 @@ import pepeSanta from '../../images/layer_141.png';
 import pepeGlasses from '../../images/layer_139.png';
 
 const Contacts = () => {
+    const [width, setWidth] = React.useState(window.innerWidth);
+    React.useEffect(() => {
+        window.addEventListener('resize', () => {
+            setWidth(window.innerWidth)
+        })
+    }, []);
+
     return (
         <section className="contacts">
             <h2 className="contacts__title">Новые токены на подходе!</h2>
@@ -16,16 +24,38 @@ const Contacts = () => {
                 чтобы узнавать о новых токенах и предлагать свои идеи.
             </p>
             <div className="contacts__buttons">
-                <img className="contacts__pic" src={pepeSleep} alt="Пепе"/>
-                <img className="contacts__pic" src={twoPepe} alt="Пепе"/>
-                <img className="contacts__pic" src={pepeWithFlower} alt="Пепе"/>
-                <img className="contacts__pic" src={pepeWithTable} alt="Пепе"/>
+                {width <= 767 ?
+                <div className="contacts__responsive">
+                    <img className="contacts__pic" src={pepeSleep} alt="Пепе"/>
+                    <img className="contacts__pic" src={twoPepe} alt="Пепе"/>
+                    <img className="contacts__pic" src={pepeWithFlower} alt="Пепе"/>
+                    <img className="contacts__pic" src={pepeWithTable} alt="Пепе"/>
+                </div>
+                :
+                <>
+                    <img className="contacts__pic" src={pepeSleep} alt="Пепе"/>
+                    <img className="contacts__pic" src={twoPepe} alt="Пепе"/>
+                    <img className="contacts__pic" src={pepeWithFlower} alt="Пепе"/>
+                    <img className="contacts__pic" src={pepeWithTable} alt="Пепе"/>
+                </>
+                }
                 <button className="contacts__button">Telegram</button>
                 <button className="contacts__button">VK</button>
-                <img className="contacts__pic" src={pepeScientist} alt="Пепе"/>
-                <img className="contacts__pic" src={pepeWeird} alt="Пепе"/>
-                <img className="contacts__pic" src={pepeSanta} alt="Пепе"/>
-                <img className="contacts__pic" src={pepeGlasses} alt="Пепе"/>
+                {width <= 767 ?
+                <div className="contacts__responsive">
+                    <img className="contacts__pic" src={pepeScientist} alt="Пепе"/>
+                    <img className="contacts__pic" src={pepeWeird} alt="Пепе"/>
+                    <img className="contacts__pic" src={pepeSanta} alt="Пепе"/>
+                    <img className="contacts__pic" src={pepeGlasses} alt="Пепе"/>
+                </div>
+                :
+                <>
+                    <img className="contacts__pic" src={pepeScientist} alt="Пепе"/>
+                    <img className="contacts__pic" src={pepeWeird} alt="Пепе"/>
+                    <img className="contacts__pic" src={pepeSanta} alt="Пепе"/>
+                    <img className="contacts__pic" src={pepeGlasses} alt="Пепе"/>
+                </>
+                }
             </div>
         </section>
     )
