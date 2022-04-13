@@ -25,8 +25,7 @@
     font-size: 58px;
     line-height: 1.2;
     font-weight: 600;
-    transition: background-color ease-in-out .3s,
-                border-color ease-in-out .3s;
+    transition: box-shadow linear .2s;
 
 }
 
@@ -41,8 +40,7 @@
 }
 
 .authcontainer__button_twitch:hover {
-    background-color: rgba(145, 71, 255, .4);
-    border-color: rgb(108, 53, 191, .4);
+    box-shadow: 0 0 4px 8px rgb(108, 53, 191);
 }
 
 .authcontainer__button_goggle {
@@ -51,8 +49,7 @@
 }
 
 .authcontainer__button_goggle:hover {
-    background-color: rgba(255, 255, 255, .4);
-    border-color: rgb(146, 146, 146, .4);
+    box-shadow: 0 0 8px 8px rgb(146, 146, 146);
 }
 
 .authcontainer__terms {

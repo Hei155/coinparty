@@ -24,12 +24,22 @@
     margin-bottom: 26px;
 }
 
+.payment__title {
+    color: #646464;
+    font-size: 25px;
+    text-align: left;
+}
+
+.payment__value {
+    color: black;
+    font-size: 25px;
+}
+
 .payment__input {
     display: block;
     margin: 0 auto;
     margin-bottom: 40px;
     padding: 0;
-    border-radius: 10px;
     width: 450px;
     height: 70px;
     border-color: black;

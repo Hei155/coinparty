@@ -14,7 +14,6 @@ function App() {
   const [path] = React.useState(useLocation().pathname);
   React.useEffect(() => {
     if (path === "/") {
-      console.log('да')
       ref.current.style = "background: black";
     } else if (path === "/settings") {
       ref.current.style = "backgreound: white";

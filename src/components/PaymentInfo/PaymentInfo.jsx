@@ -1,7 +1,11 @@
+import React from 'react';
 import mastercardLogo from '../../images/mastercardLogo.png';
 import visaLogo from '../../images/visaLogo.png';
+import Transaction from '../Transaction/Transaction';
 
 const PaymentInfo = () => {
+    const [isTransactions, setIsTransactions] = React.useState(true);
+
     return (
         <main className="payment">
             <div className="payment__container">
@@ -25,7 +29,21 @@ const PaymentInfo = () => {
             </div>
             <div className='payment__history'>
                 <h3 className='payment__history-title'>История транзакция</h3>
-                <span className='payment__history-default'>Транзакций нет</span>
+                    {isTransactions
+                    ?
+                    <table className='payment__table'>
+                        <tr className='payment__row'>
+                            <th className='payment__title'>Операция</th>
+                            <th className='payment__title'>Дата</th>
+                            <th className='payment__title'>Сумма</th>
+                            <th className='payment__title'>Метод</th>
+                            <th className='payment__title'>Статус</th>
+                        </tr>
+                        <Transaction operation="Пополнение" date="15.12.2021 18:15" sum="2000" method="Карта Mastercard" status="Исполнено"/>
+                    </table>
+                    :
+                    <span className='payment__history-default'>Транзакций нет</span>
+                    }
             </div>
         </main>
     )
