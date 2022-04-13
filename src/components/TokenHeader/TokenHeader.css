@@ -1,0 +1,17 @@
+.mytoken {
+    color: #646464;
+}
+
+.mytoken__history {
+    font-size: 35px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+}
+
+.mytoken__signature {
+    font-size: 35px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+}

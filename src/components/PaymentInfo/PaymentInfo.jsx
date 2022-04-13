@@ -40,6 +40,8 @@ const PaymentInfo = () => {
                             <th className='payment__title'>Статус</th>
                         </tr>
                         <Transaction operation="Пополнение" date="15.12.2021 18:15" sum="2000" method="Карта Mastercard" status="Исполнено"/>
+                        <Transaction operation="Пополнение" date="15.12.2021 18:15" sum="2000" method="Карта Mastercard" status="Исполнено"/>
+                        <Transaction operation="Пополнение" date="15.12.2021 18:15" sum="2000" method="Карта Mastercard" status="Исполнено"/>
                     </table>
                     :
                     <span className='payment__history-default'>Транзакций нет</span>

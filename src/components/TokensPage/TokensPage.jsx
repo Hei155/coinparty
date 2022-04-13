@@ -1,15 +1,15 @@
 import Header from "../Header/Header";
-import Token from "../Token/Token";
+import Tokens from "../Tokens/Tokens";
 import Footer from "../Footer/Footer";
 
-const TokenPage = () => {
+const TokensPage = () => {
     return (
         <>
             <Header/>
-            <Token/>
+            <Tokens/>
             <Footer/>
         </>
     )
 }
 
-export default TokenPage;
+export default TokensPage;

@@ -15,8 +15,9 @@
 @import url(../src/components/PortfolioProfileContent/PortfolioProfileContent.css);
 @import url(../src/components/CreateAcc/CreateAcc.css);
 @import url(../src/components/TokenInfo/TokenInfo.css);
-@import url(../src/components/TokenPage/TokenPage.css);
+@import url(../src/components/TokensPage/TokensPage.css);
 @import url(../src/components/Tokens/Tokens.css);
 @import url(../src/components/TokensStatus/TokensStatus.css);
 @import url(../src/components/UsersAssets/UsersAssets.css);
 @import url(../src/components/Contacts/Contacts.css);
+@import url(../src/components/Token/Token.css);

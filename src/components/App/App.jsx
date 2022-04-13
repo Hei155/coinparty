@@ -4,6 +4,7 @@ import SettingsPage from '../SettingsPage/SettingsPage';
 import ReplenishmentPage from '../ReplenishmentPage/ReplenishmentPage';
 import PortfolioPage from '../PortfolioPage/PortfolioPage';
 import TokenPage from '../TokenPage/TokenPage';
+import TokensPage from '../TokensPage/TokensPage';
 
 import logo from '../../logo.svg';
 import './App.css';
@@ -28,6 +29,7 @@ function App() {
         <Route path="/replenishment" element={<ReplenishmentPage/>}/>
         <Route path="/portfolio" element={<PortfolioPage/>}/>
         <Route path="/token" element={<TokenPage/>}/>
+        <Route path="/tokens" element={<TokensPage/>}/>
       </Routes>
     </div>
   );
