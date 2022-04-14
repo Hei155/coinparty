@@ -1,0 +1,163 @@
+.tokenstats{
+    color: black;
+}
+
+.tokenstats__container {
+    max-width: 2267px;
+    margin: 0 auto;
+}
+
+.tokenstats__period-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tokenstats__period-element {
+    display: inline;
+    font-size: 35px;
+    color: #8c8c8c;
+    margin-right: 35px;
+}
+
+.tokenstats__period-element:last-of-type {
+    margin-right: 0;
+}
+
+.tokenstats__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin: 45px auto;
+    width: calc(100% - 150px);
+}
+
+.tokenstats__my {
+    max-width: 1428px;
+    border: 2px solid #d5d5d5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tokenstats__pepe {
+    width: 170px;
+    align-self: center;
+}
+
+.tokenstats__cost {
+    font-size: 75px;
+    font-weight: 900;
+    margin-right: 30px;
+}
+
+.tokenstats__values {
+    display: flex;
+    align-items: center;
+}
+
+.tokenstats__variation {
+    font-size: 35px;
+    color: #8c8c8c;
+    font-weight: 700;
+}
+
+.tokenstats__info-text {
+    color: green;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.tokenstats__exclamation {
+    width: 30px;
+    vertical-align: top;
+}
+
+.tokenstats__sell {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.tokenstats__partion {
+    height: 45px;
+    border: 3px solid #078303;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.tokenstats__nick {
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.tokenstats__token-title {
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.tokenstats__contacts {
+    border-top: 2px solid #d5d5d5;
+}
+
+.tokenstats__contacts-container {
+    margin: 0 auto;
+    width: calc(100% - 150px);
+    padding: 30px 0;
+}
+
+.statistic__title {
+    color: #8c8c8c;
+    font-size: 35px;
+}
+
+.statistic__table-text {
+    font-size: 35px;
+}
+
+.statistic__table {
+    width: 100%;
+}
+
+.tokenstats__buy-title {
+    font-size: 28px;
+}
+
+.tokenstats__buy-subtitle {
+    font-size: 25px;
+    color: #8c8c8c;
+    font-weight: 600;
+}
+
+.tokenstats__token-count {
+    color: #8c8c8c;
+    font-size: 150px;
+    font-weight: 600;
+}
+
+.tokenstats__buy {
+    max-width: 778px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tokenstats__tokens-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tokenstats__buy-subtitle_light {
+    font-weight: 300;
+}
+
+.tokenstats__btn-buy {
+    padding: 0;
+    background-color: black;
+    color: white;
+    width: calc(100% - 100px);
+    height: 80px;
+    border-radius: 15px;
+}

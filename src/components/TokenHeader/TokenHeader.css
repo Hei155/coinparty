@@ -9,6 +9,7 @@
     line-height: 1.2;
     font-weight: 500;
     letter-spacing: -0.04em;
+    margin-right: 15px;
 }
 
 .mytoken__signature {
@@ -24,6 +25,7 @@
     font-weight: 700;
     letter-spacing: -0.04em;
     color: black;
+    margin-right: 30px;
 }
 
 .mytoken__profile {
@@ -34,4 +36,34 @@
 .mytoken__profile-info {
     display: flex;
     align-items: center;
+}
+
+.mytoken__pointer {
+    margin-right: 15px;
+}
+
+.mytoken__btn {
+    width: 229px;
+    height: 88px;
+    border: 1px solid #929292;
+    background-color: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform ease-in-out .3s;
+    align-self: flex-end;
+    padding: 0;
+    font-size: 30px;
+    color: #929292;
+}
+
+.mytoken__btn:hover {
+    transform: scale(1.03, 1.03);
+}
+
+.mytoken__avatar {
+    margin-right: 30px;
+}
+
+.mytoken__history-container {
+    margin: 30px 0;
 }
