@@ -1,5 +1,7 @@
 .mytoken {
     color: #646464;
+    max-width: 2267px;
+    margin: 0 auto;
 }
 
 .mytoken__history {
@@ -14,4 +16,22 @@
     line-height: 1.2;
     font-weight: 500;
     letter-spacing: -0.04em;
+}
+
+.mytoken__nick {
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: black;
+}
+
+.mytoken__profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mytoken__profile-info {
+    display: flex;
+    align-items: center;
 }

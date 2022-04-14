@@ -21,3 +21,5 @@
 @import url(../src/components/UsersAssets/UsersAssets.css);
 @import url(../src/components/Contacts/Contacts.css);
 @import url(../src/components/Token/Token.css);
+@import url(../src/components/TokenHeader/TokenHeader.css);
+@import url(../src/components/TokenStats/TokenStats.css);

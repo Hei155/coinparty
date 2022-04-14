@@ -9,6 +9,7 @@
     margin: 0 auto;
     justify-content: space-between;
     width: calc(100% - 200px);
+    max-width: 2267px;
 }
 
 .footer__about {
