@@ -1,5 +1,7 @@
 import pepeHat from '../../images/pepeHat.png';
 import exclamation from '../../images/exclamation.png';
+import TrendToken from '../TrendToken/TrendToken';
+import strogoAvatar from '../../images/strogo.png';
 
 const TokenStats = () => {
     return (
@@ -71,7 +73,14 @@ const TokenStats = () => {
                 <button className='tokenstats__btn-buy'>Купить $BRFF</button>
             </div>
             <div className="tokenstats__trends">
-
+                <strong className='tokenstats__trend-tokens'>Трендовые токены</strong>
+                <p className='tokenstats__trend-text'>Токены, которые показали наибольший прирост просмотров на coinparty за 24 часа.</p>
+                <div>
+                    <TrendToken avatar={strogoAvatar} nick="strogo" name="SSTRG" cost="$1,00" view="10"/>
+                    <TrendToken avatar={strogoAvatar} nick="strogo" name="SSTRG" cost="$1,00" view="10"/>
+                    <TrendToken avatar={strogoAvatar} nick="strogo" name="SSTRG" cost="$1,00" view="10"/>
+                </div>
+                <button className='tokenstats__trend-button'>Посмотреть все</button>
             </div>
             <div className="tokenstats__online">
                 <h3>Средний онлайн</h3>

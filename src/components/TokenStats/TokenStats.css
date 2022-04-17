@@ -1,5 +1,8 @@
 .tokenstats{
     color: black;
+    display: grid;
+    grid-template-areas: "my my buy"
+                         "my my trends";
 }
 
 .tokenstats__container {
@@ -39,6 +42,7 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    grid-area: my;
 }
 
 .tokenstats__pepe {
@@ -141,6 +145,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 2px solid #d5d5d5;
+    grid-area: buy;
 }
 
 .tokenstats__tokens-info {
@@ -160,4 +166,54 @@
     width: calc(100% - 100px);
     height: 80px;
     border-radius: 15px;
+    font-size: 30px;
+}
+
+.tokenstats__trends {
+    max-width: 778px;
+    border: 2px solid #d5d5d5;
+    grid-area: trends;
+}
+
+.tokenstats__trend {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tokenstats__trend-view {
+    display: flex;
+    flex-direction: column;
+}
+
+.tokenstats__trend-container {
+    display: flex;
+    align-items: center;
+}
+
+.tokenstats__trend-avatar {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.tokenstats__trend-nick {
+    font-size: 25px;
+    font-weight: 600;
+    display: block;
+}
+
+.tokenstats__trend-name {
+    font-size: 25px;
+    color: #8c8c8c;
+}
+
+.tokenstats__trend-tokens {
+    font-size: 40px;
+}
+
+.tokenstats__trend-text {
+    font-size: 30px;
+    color: #8c8c8c;
 }
