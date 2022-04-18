@@ -5,6 +5,7 @@ import strogoAvatar from '../../images/strogo.png';
 import telegramLogo from '../../images/telegramLogoBlack.png';
 import twitchLogo from '../../images/twitchLogo.png';
 import question from '../../images/question.png';
+import pepeSad from '../../images/pepeSad.png';
 
 const TokenStats = () => {
     return (
@@ -96,45 +97,32 @@ const TokenStats = () => {
                         </div>
                     </div>
                 </div>
-                <div className="tokenstats__online">
-                    <h3>Средний онлайн</h3>
+                <div className='tokenstats__graphs'>
+                    <div className="tokenstats__online">
+                        <h3 className='tokenstats__graphs-titile'>Средний онлайн</h3>
+                    <div className='tokenstats__online-graph'>
+
+                    </div>
+                    <div className='tokenstats__info'>
+                        <div className='tokenstats__expected'>
+                            <p className='tokenstats__online-text'>Ожидаемый средний онлайн в 12.2021</p>
+                            <span className='tokenstats__online-viewers'>9,500 зрителей</span>
+                        </div>
+                        <div className='tokenstats__actual'>
+                            <p className='tokenstats__online-text tokenstats__online-viewers_purple'>Актуальный средний онлайн в 12.2021</p>
+                            <span className='tokenstats__online-viewers tokenstats__online-viewers_purple'>-</span>
+                        </div>
+                    </div>
                 </div>
                 <div className="tokenstats__bonus"> 
-                    <h3>Бонусы SBRFF</h3>
-                </div>
-                <div className="tokenstats__works">
-                    <h3>Как работает токен</h3>
-                    <span>Что такое токен понятным языком</span>
-                    <p>Токен (или токен-акция) - это цифровой актив, представляющий право на долю в конкретной организации, или в нашем случае, в публичном размещении стримера. Токены на Coinparty - это цифровой аналог классических акций фрндового рынка.</p>
-                </div>
-<<<<<<< HEAD
-=======
-                <button className='tokenstats__trend-button'>Посмотреть все</button>
-            </div>
-            <div className="tokenstats__online">
-                <h3>Средний онлайн</h3>
-                <div className='tokenstats__online-graph'>
-
-                </div>
-                <div className='tokenstats__online'>
-                    <div className='tokenstats__expected'>
-                        <p className='tokenstats__online-text'>Ожидаемый средний онлайн в 12.2021</p>
-                        <span className='tokenstats__online-viewers'>9,500 зрителей</span>
+                    <h3 className='tokenstats__graphs-titile'>Бонусы SBRFF</h3>
+                    <div className="bonus__graph">
+                        <img className='bonus__pepe' alt="Пепе грустный" src={pepeSad}/>
                     </div>
-                    <div className='tokenstats__actual'>
-                        <p className='tokenstats__online-text tokenstats__online-viewers_purple'>Актуальный средний онлайн в 12.2021</p>
-                        <span className='tokenstats__online-viewers tokenstats__online-viewers_purple'>-</span>
-                    </div>
+                    <p className='bonus__status'>$BRFF ещё не выплачивал бонусы.</p>
+                    <p className='bonus__sell'>189/8,000 $BRFF продано</p>
+                    <div className='bonus__progress'/>
                 </div>
-            </div>
-            <div className="tokenstats__bonus"> 
-                <h3>Бонусы SBRFF</h3>
-                <div className="bonus__graph">
-                    <img className='bonus__pepe'/>
-                </div>
-                <p className='bonus__status'>$BRFF ещё не выплачивал бонусы.</p>
-                <p className='bonus__sell'>189/8,000 $BRFF продано</p>
-                <div className='bonus__progress'/>
             </div>
             <div className="tokenstats__works">
                 <h3>Как работает токен</h3>
@@ -146,7 +134,7 @@ const TokenStats = () => {
                 <p>После продажи всего запаса токена конкретного стримера (или игрока, огранизации), открывается свободная биржа, которая позволяет неограниченному числу участников совершать сделки с токеном. Так как число токенов ограничено, а спрос на токен может повышаться, стоимость токена может расти, или падать, в зависимости от участников рынка, показателей и роста стримера и других факторов, на которые не может повлиять Coinparty.</p>
                 <span>Открытие системы дивидендов(бонусов)</span>
                 <p>После месяца свободных торгов, для держателей токена стримера наступает период дивидендов (бонусов за удержание токена), которые начисляются еженедельно. Стример получает доход от Оборота его токена и распределяет доход среди держателей токена в соответствии с их долей.</p>
->>>>>>> 6b05ab90d1c6464c944bf19064b42f1d2e782e13
+            </div>
             </div>
         </section>
     ) 
