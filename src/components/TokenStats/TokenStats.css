@@ -5,6 +5,7 @@
 
 .tokenstats__wrapper {
     max-width: 2267px;
+    width: calc(100% - 200px);
     margin: 0 auto;
 }
 
@@ -402,6 +403,7 @@
 .tokenstats__works {
     border: #8c8c8c 2px solid;
     border-radius: 10px;
+    margin: 0 auto;
     margin: 51px 0 37px;
     padding: 30px 80px;
 }
@@ -431,4 +433,45 @@
     position: absolute;
     width: calc(100% - 80px);
     left: 4%;
+}
+
+.mytoken__container {
+    width: calc(100% - 200px);
+    margin: 0 auto;
+    max-width: 2267px;
+}
+
+@media screen and (max-width: 2300px) {
+    .tokenstats__cost {
+        font-size: 70px;
+    }
+
+    .tokenstats__variation {
+        font-size: 30px;
+    }
+
+    .tokenstats__period-element {
+        font-size: 27px;
+    }
+
+    .tokenstats__info-text {
+        padding: 0 70px;
+        font-size: 25px;
+    }
+
+    .tokenstats__exclamation {
+        margin-right: 15px;
+    }
+
+    .tokenstats__buy-title {
+        font-size: 35px;
+    }
+
+    .tokenstats__buy-subtitle {
+        font-size: 27px;
+    }
+
+    .tokenstats__token-count {
+        font-size: 250px;
+    }
 }
