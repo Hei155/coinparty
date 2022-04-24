@@ -1,48 +1,69 @@
-import React from "react";
-import { Line } from "react-chartjs-2";
+import React from 'react';
+import {Line} from 'react-chartjs-2';
 
-const Chart = () => {
+const Charts = () => {
 
-    const lineChartData = {
-      labels: ["October", "November", "December"],
-      datasets: [
-        {
-          data: [8137119, 9431691, 10266674],
-          label: "Infected",
-          borderColor: "#3333ff",
-          fill: true,
-          lineTension: 0.5
-        },
-        {
-          data: [1216410, 1371390, 1477380],
-          label: "Deaths",
-          borderColor: "#ff3333",
-          backgroundColor: "rgba(255, 0, 0, 0.5)",
-          fill: true,
-          lineTension: 0.5
-        }
-      ]
-    };
-  
-    return (
+  const state = {
+    labels: ['09.2021', '10.2021', '11.2021', '12.2021'],
+    datasets: [
+      {
+        label: '',
+        fill: false,
+        lineTension: 0.5,
+        backgroundColor: 'rgb(0,0,0)',
+        borderColor: '#43009c',
+        borderWidth: 6,
+        data: [4000, 5000, 3800, 12000],
+        pointRadius: 0,
+      }
+    ]
+  }
+
+  return (
+    <div>
       <Line
-        type="line"
-        width={160}
-        height={60}
+        data={state}
         options={{
           title: {
-            display: true,
-            text: "COVID-19 Cases of Last 6 Months",
+            display:true,
+            text:'Average Rainfall per month',
             fontSize: 20
           },
           legend: {
-            display: true, //Is the legend shown?
-            position: "top" //Position of the legend.
+            display: true,
+            position:'right'
+          },
+          scales: {
+            y: {
+              grid: {
+                color: 'white',
+                drawBorder: false,
+               
+              },
+              position: 'top',
+              ticks: {
+                display: false,
+                beginAtZero: false,
+                  min: 0,
+                  max: 100,
+              },
+            },
+            x: {
+              grid: {
+                drawBorder: false,
+                color: 'white'
+              },
+              ticks: {
+                font: {
+                  size: 25,
+                }
+              }
+            },
           }
         }}
-        data={lineChartData}
       />
-    );
-  };
+    </div>
+  );
+}
 
-export default Chart;
+export default Charts;

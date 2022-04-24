@@ -6,8 +6,11 @@ import telegramLogo from '../../images/telegramLogoBlack.png';
 import twitchLogo from '../../images/twitchLogo.png';
 import question from '../../images/question.png';
 import pepeSad from '../../images/pepeSad.png';
+import Charts from '../Chart/Charts';
+import { Chart, registerables } from 'chart.js'
 
 const TokenStats = () => {
+    Chart.register(...registerables);
     return (
         <section className="tokenstats">
             <div className='tokenstats__wrapper'>
@@ -101,7 +104,7 @@ const TokenStats = () => {
                     <div className="tokenstats__online">
                         <h3 className='tokenstats__graphs-titile'>Средний онлайн</h3>
                     <div className='tokenstats__online-graph'>
-                        
+                        <Charts/>
                     </div>
                     <div className='tokenstats__info'>
                         <div className='tokenstats__expected'>
@@ -117,8 +120,9 @@ const TokenStats = () => {
                 <div className="tokenstats__bonus"> 
                     <h3 className='tokenstats__graphs-titile'>Бонусы SBRFF</h3>
                     <div className="bonus__graph">
-                        <img className='bonus__pepe' alt="Пепе грустный" src={pepeSad}/>
+                        <Charts/>
                     </div>
+                    <img className='bonus__pepe' alt="Пепе грустный" src={pepeSad}/>
                     <p className='bonus__status'>$BRFF ещё не выплачивал бонусы.</p>
                     <p className='bonus__sell'>189/8,000 $BRFF продано</p>
                     <div className='bonus__progress'/>

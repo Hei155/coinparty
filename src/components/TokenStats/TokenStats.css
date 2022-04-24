@@ -329,14 +329,15 @@
 
 .tokenstats__graphs-titile {
     font-size: 35px;
-    margin: 0;
+    width: calc(100% - 80px);
+    padding-top: 50px;
+    margin: 0 auto;
 }
 
 .tokenstats__online {
     border: 1px solid #8c8c8c;
     border-radius: 10px;
-    padding: 40px;
-    width: 1011px;
+    width: 1091px;
 }
 
 .tokenstats__online-text {
@@ -353,17 +354,21 @@
 }
 
 .tokenstats__bonus {
-    width: 1011px;
+    width: 1091px;
     max-width: 1091px;
     border: 1px solid #8c8c8c;
-    padding: 40px;
     padding-bottom: 148px;
     border-radius: 10px;
+    position: relative;
 }
 
 .tokenstats__info {
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid #8c8c8c;
+    padding: 0 40px;
+    padding-bottom: 50px;
+    margin: 0 auto;
 }
 
 .bonus__pepe {
@@ -415,4 +420,15 @@
     font-size: 34px;
     color: #8c8c8c;
     letter-spacing: -0.04em;
+}
+
+.tokenstats__online-graph {
+    width: calc(100% - 80px);
+    margin: 0 auto;
+}
+
+.bonus__graph {
+    position: absolute;
+    width: calc(100% - 80px);
+    left: 4%;
 }
