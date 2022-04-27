@@ -54,9 +54,9 @@ const TokenStats = () => {
                                                 <td className='statistic__title'>Всего токенов<img className='title__question' src={question} alt="Вопросительный знак"/></td>
                                             </tr>
                                             <tr className='statistic__table__row'>
-                                                <td className='statistic__table-text'>$8,000</td>
-                                                <td className='statistic__table-text'>$0</td>
-                                                <td className='statistic__table-text'>$8,000</td>
+                                                <td className='statistic__table-text statistic__table-text_padding'>$8,000</td>
+                                                <td className='statistic__table-text statistic__table-text_padding'>$0</td>
+                                                <td className='statistic__table-text statistic__table-text_padding'>$8,000</td>
                                             </tr>
                                             <tr className='statistic__table__row'>
                                                 <td className='statistic__title'>Бонусы (30д)<img className='title__question' src={question} alt="Вопросительный знак"/></td>
@@ -74,16 +74,20 @@ const TokenStats = () => {
                         </div>
                         </div>
                     </div>
-                    <div className="tokenstats__buy">
+                    <div className="tokenstats__buy-container">
+                        <form className="tokenstats__buy">
                         <div className='tokenstats__tokens-info'>
                             <strong className='tokenstats__buy-title'>Купить</strong>
                             <p className='tokenstats__buy-subtitle'>В портфолио 0 $BRFF</p>
                             <span className='tokenstats__token-count'>0</span>
-                            <p className='tokenstats__buy-subtitle tokenstats__buy-subtitle_light'>Введите общее кол-во токенов</p>
+                            <label className='tokenstats__buy-label'>
+                                <input className='tokenstats__buy-subtitle tokenstats__buy-subtitle_light' placeholder='Введите общее кол-во токенов'></input>
+                            </label>
                         </div>
                         <div className='tokenstats__button-container'>
                             <button className='tokenstats__btn-buy'>Купить $BRFF</button>
                         </div>
+                        </form>
                     </div>
                     <div className="tokenstats__trends">
                         <div className='trends__wrapper'>

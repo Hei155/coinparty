@@ -38,6 +38,7 @@
 
 .mytoken__pointer {
     margin-right: 15px;
+    vertical-align: sub;
 }
 
 .mytoken__btn {
@@ -64,4 +65,93 @@
 
 .mytoken__history-container {
     margin: 30px 0;
+}
+
+@media screen and (max-width: 2300px) {
+    .mytoken__avatar {
+        width: 100px;
+    }
+
+    .mytoken__history {
+        font-size: 30px;
+    }
+
+    .mytoken__signature {
+        font-size: 30px;
+    }
+
+    .mytoken__pointer {
+
+    }
+
+    .mytoken__nick {
+        font-size: 50px;
+    }
+
+    .mytoken__btn {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .mytoken__avatar {
+        width: 65px;
+    }
+
+    .mytoken__nick {
+        font-size: 25px;
+    }
+
+    .mytoken__signature {
+        font-size: 22px;
+    }
+
+    .mytoken__btn {
+        font-size: 22px;
+        height: 55px;
+    }
+
+    .mytoken__history {
+        font-size: 22px;
+    }
+
+    .mytoken__signature {
+        font-size: 22px;
+    }
+
+    .mytoken__pointer {
+        width: 13px;
+    }
+}
+
+@media screen and (max-width: 909px) {
+    .mytoken__history {
+        font-size: 18px;
+    }
+
+    .mytoken__signature {
+        font-size: 18px;
+    }
+
+    .mytoken__pointer {
+        width: 10px;
+    }
+    
+    .mytoken__avatar {
+        width: 40px;
+    }
+
+    .mytoken__nick {
+        font-size: 20px;
+    }
+
+    .mytoken__signature {
+        font-size: 16px;
+    }
+
+    .mytoken__btn {
+        font-size: 18px;
+        width: 110px;
+        height: 40px;
+    }
 }
