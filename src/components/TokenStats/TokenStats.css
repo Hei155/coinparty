@@ -62,7 +62,6 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    grid-area: my;
     height: 1777px;
 }
 
@@ -185,7 +184,6 @@
     justify-content: center;
     border: 2px solid #d5d5d5;
     border-radius: 10px;
-    grid-area: buy;
     height: 887px;
 }
 
@@ -623,6 +621,7 @@
     .tokenstats__buy-container {
         width: 100%;
         max-width: 778px;
+        grid-area: buy;
     }
 
     .trends__wrapper {
@@ -798,11 +797,24 @@
 }
 
 @media screen and (max-width: 909px) {
+
     .tokenstats__abouttoken {
-        grid-template-areas: 
-            "my"
-            "buy"
-            "trends";
+        display: flex;
+        flex-direction: column;
+        gap: 47px 0;
+        grid-template-columns: 1fr;
+    }
+
+    .tokenstats__buy {
+        max-width: none;
+    }
+
+    .tokenstats__buy-container {
+        max-width: none;
+    }
+
+    .tokenstats__trends {
+        max-width: none;
     }
     
     .tokenstats__graphs {
@@ -934,4 +946,20 @@
     .title__question {
         margin-left: 5px;
     }
+}
+
+@media screen and (max-width: 529px) {
+    .statistic__title {
+        font-size: 12px;
+    }
+
+    .statistic__table-text {
+        font-size: 12px;
+    }
+
+    .title__question {
+        width: 12px;
+    }
+
+    
 }
