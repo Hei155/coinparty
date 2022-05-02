@@ -155,3 +155,21 @@
         height: 40px;
     }
 }
+
+@media screen and (max-width: 529px) {
+    .mytoken__avatar {
+        margin-right: 10px;
+        width: 25px;
+    }
+
+    .mytoken__nick {
+        font-size: 16px;
+        margin-right: 8px;
+    }
+
+    .mytoken__btn {
+        font-size: 14px;
+        width: 90px;
+        height: 30px;
+    }
+}

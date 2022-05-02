@@ -187,10 +187,19 @@
     height: 887px;
 }
 
+.tokenstats__buy-label {
+    width: 100%;
+}
+
+.tokenstats__buy-subtitle {
+    width: 100%;
+}
+
 .tokenstats__tokens-info {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .tokenstats__buy-subtitle_light {
@@ -961,5 +970,63 @@
         width: 12px;
     }
 
-    
+    .tokenstats__cost {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+
+    .tokenstats__header {
+        width: calc(100% - 20px);
+    }
+
+    .tokenstats__variation {
+        font-size: 14px;
+    }
+
+    .tokenstats__period-element {
+        font-size: 10px;
+        margin-right: 5px;
+    }
+
+    .tokenstats__btn-buy {
+        width: 90%;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .tokenstats__trend-nick {
+        font-size: 14px;
+    }
+
+    .tokenstats__trend-name {
+        font-size: 15px;
+    }
+
+    .tokenstats__trend-views {
+        font-size: 14px;
+    }
+
+    .tokenstats__trend-text {
+        font-size: 14px;
+    }
+
+    .tokenstats__online-text {
+        font-size: 14px;
+    }
+
+    .tokenstats__online-text:first-of-type {
+        margin-right: 5px;
+    }
+
+    .tokenstats__online-viewers {
+        font-size: 14px;
+    }
+
+    .bonus__status {
+        font-size: 18px;
+    }
+
+    .bonus__sell {
+        font-size: 14px;
+    }
 }
