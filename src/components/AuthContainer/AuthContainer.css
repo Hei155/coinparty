@@ -1,4 +1,5 @@
 .authcontainer__block {
+    width: 32.6%;
     max-width: 939px;
     margin: 0 auto;
     border: 3px solid #929292;
@@ -17,15 +18,14 @@
     margin: 0 auto;
     margin-bottom: 89px;
     padding: 0;
-    width: 742px;
+    width: calc(100% - 196px);
     height: 170px;
     border: none;
     border-radius: 20px;
     font-size: 58px;
     line-height: 1.2;
     font-weight: 600;
-    transition: background-color ease-in-out .3s,
-                border-color ease-in-out .3s;
+    transition: box-shadow linear .2s;
 
 }
 
@@ -40,8 +40,7 @@
 }
 
 .authcontainer__button_twitch:hover {
-    background-color: rgba(145, 71, 255, .4);
-    border-color: rgb(108, 53, 191, .4);
+    box-shadow: 0 0 4px 8px rgb(108, 53, 191);
 }
 
 .authcontainer__button_goggle {
@@ -50,8 +49,7 @@
 }
 
 .authcontainer__button_goggle:hover {
-    background-color: rgba(255, 255, 255, .4);
-    border-color: rgb(146, 146, 146, .4);
+    box-shadow: 0 0 8px 8px rgb(146, 146, 146);
 }
 
 .authcontainer__terms {
@@ -70,4 +68,99 @@
     font-size: 30px;
     line-height: 1.2;
     font-weight: 700;
+}
+
+@media screen and (max-width: 2416px) {
+    .authcontainer__block {
+        margin-bottom: 200px;
+    }
+
+    .authcontainer__button {
+        font-size: 32px;
+        height: 110px;
+        margin-bottom: 59px;
+    }
+    
+    .authcontainer__button:last-of-type {
+        margin-bottom: 47px;
+    }
+
+    .authcontainer__terms {
+        font-size: 20px;
+        width: calc(100% - 20px);
+    }
+
+    .authcontainer__notice {
+        width: calc(100% - 20px);
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1872px) {
+    .authcontainer__block {
+        width: 45%;
+    }
+
+    .authcontainer__button {
+        font-size: 30px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .authcontainer__block {
+        width: 60%;
+        margin-bottom: 100px;
+    }
+
+    .authcontainer__buttons {
+        padding-top: 30px;
+    }
+
+    .authcontainer__button {
+        font-size: 25px;
+        width: calc(100% - 80px);
+        max-width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .authcontainer__button:last-of-type {
+        margin-bottom: 20px;
+    }
+
+    .authcontainer__terms {
+        font-size: 15px;
+    }
+
+    .authcontainer__notice {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .authcontainer__button {
+        width: calc(100% - 20px);
+        font-size: 20px;
+        height: 60px;
+    }
+
+    .authcontainer__block {
+        max-width: 428px;
+        width: calc(100% - 40px);
+        margin-bottom: 60px;
+    }
+
+    .authcontainer__terms {
+        font-size: 12px;
+    }
+
+    .authcontainer__notice {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
 }

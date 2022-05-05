@@ -1,0 +1,1032 @@
+.tokenstats {
+    color: black;
+    margin-top: 37px;
+}
+
+.tokenstats__wrapper {
+    max-width: 2267px;
+    width: calc(100% - 200px);
+    margin: 0 auto;
+}
+
+.tokenstats__border {
+    border-top: #8c8c8c 2px solid;
+    border-bottom: #8c8c8c 2px solid;
+}
+
+.tokenstats__abouttoken {
+    gap: 62px 53px;
+    display: grid;
+    grid-template-areas: "my buy"
+                         "my trends";
+    justify-content: space-between;
+}
+
+.tokenstats__container {
+    max-width: 2267px;
+    margin: 0 auto;
+    grid-area: my;
+}
+
+.tokenstats__period-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tokenstats__period-element {
+    display: inline;
+    font-size: 31px;
+    color: #8c8c8c;
+    margin-right: 35px;
+}
+
+.tokenstats__period-element:last-of-type {
+    margin-right: 0;
+}
+
+.tokenstats__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 90px;
+    width: calc(100% - 150px);
+}
+
+.tokenstats__my {
+    width: 100%;
+    max-width: 1428px;
+    border: 2px solid #d5d5d5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 1777px;
+}
+
+.tokenstats__pepe {
+    width: 170px;
+    align-self: center;
+    margin-bottom: 70px;
+}
+
+.tokenstats__cost {
+    font-size: 85px;
+    font-weight: 900;
+    margin-right: 30px;
+}
+
+.tokenstats__values {
+    display: flex;
+    align-items: center;
+}
+
+.tokenstats__variation {
+    font-size: 35px;
+    color: #8c8c8c;
+    font-weight: 700;
+}
+
+.tokenstats__info-text {
+    padding: 0 106px;
+    color: green;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 60px 0;
+}
+
+.tokenstats__exclamation {
+    width: 40px;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.tokenstats__sell {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.tokenstats__partion {
+    height: 45px;
+    border: 3px solid #078303;
+    border-radius: 30px;
+    margin: 60px auto 90px;
+}
+
+.tokenstats__nick {
+    font-size: 39px;
+    font-weight: 600;
+}
+
+.tokenstats__token-title {
+    font-size: 39px;
+    font-weight: 600;
+}
+
+.tokenstats__contacts {
+    border-top: 2px solid #d5d5d5;
+}
+
+.tokenstats__contacts-container {
+    margin: 0 auto;
+    width: calc(100% - 150px);
+    padding: 50px 0 0;
+}
+
+.statistic__title {
+    color: #8c8c8c;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.statistic__table-text {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.statistic__table-text_padding {
+    padding-bottom: 80px;
+}
+
+.statistic__table {
+    width: 100%;
+}
+
+.tokenstats__buy-title {
+    font-size: 38px;
+}
+
+.tokenstats__buy-subtitle {
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: -0.04em;
+    color: #8c8c8c;
+    font-weight: 600;
+    margin: 30px 0 50px;
+    padding: 0;
+    border: none;
+    width: 470px;
+}
+
+.tokenstats__token-count {
+    color: #8c8c8c;
+    font-size: 300px;
+    font-weight: 600;
+}
+
+.tokenstats__buy {
+    width: 100%;
+    max-width: 778px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #d5d5d5;
+    border-radius: 10px;
+    height: 887px;
+}
+
+.tokenstats__buy-label {
+    width: 100%;
+}
+
+.tokenstats__buy-subtitle {
+    width: 100%;
+}
+
+.tokenstats__tokens-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.tokenstats__buy-subtitle_light {
+    font-weight: 300;
+}
+
+.tokenstats__btn-buy {
+    padding: 0;
+    background-color: black;
+    color: white;
+    width: calc(100% - 50px);
+    height: 140px;
+    border-radius: 15px;
+    font-size: 30px;
+    display: block;
+    margin: 0 auto;
+    font-weight: 600;
+    transition: opacity ease-in-out .4s;
+    cursor: pointer;
+}
+
+.tokenstats__btn-buy:hover {
+    opacity: .7;
+}
+
+.tokenstats__trends {
+    width: 100%;
+    max-width: 778px;
+    border: 2px solid #d5d5d5;
+    grid-area: trends;
+    height: 824px;
+    border-radius: 10px;
+}
+
+.tokenstats__trend {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.tokenstats__trend:last-of-type {
+    margin-bottom: 0;
+}
+
+.tokenstats__trend-view {
+    display: flex;
+    flex-direction: column;
+}
+
+.tokenstats__trend-container {
+    display: flex;
+    align-items: center;
+}
+
+.tokenstats__trend-avatar {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.tokenstats__trend-nick {
+    font-size: 25px;
+    font-weight: 600;
+    display: block;
+}
+
+.tokenstats__trend-name {
+    font-size: 25px;
+    color: #8c8c8c;
+}
+
+.tokenstats__trend-tokens {
+    font-size: 40px;
+}
+
+.tokenstats__trend-text {
+    font-size: 30px;
+    color: #8c8c8c;
+    margin: 60px 0;
+}
+
+.tokenstats__logo-container {
+    margin: 50px 0 85px;
+}
+
+.tokenstats__logo {
+    width: 40px;
+}
+
+.tokenstats__logo:first-of-type {
+    margin-right: 35px;
+}
+
+.title__question {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.tokenstats__statistic {
+    margin-top: 75px;
+}
+
+.tokenstats__button-container {
+    width: 100%;
+    padding-top: 40px;
+    border-top: 1px solid #8c8c8c;
+}
+
+.trends__wrapper {
+    margin: 0 auto;
+    width: calc(100% - 80px);
+    padding: 60px 0;
+}
+
+.tokenstats__trend-button {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    font-size: 34px;
+    background-color: transparent;
+    color: #8c8c8c;
+    margin-top: 35px;
+    font-weight: 500;
+}
+
+.trends__button-container {
+    border-top: #8c8c8c 1px solid;
+}
+
+.tokenstats__trend-cost {
+    text-align: right;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.tokenstats__trend-views {
+    font-size: 25px;
+    color:#078303;
+}
+
+.tokenstats__graphs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 69px;
+}
+
+.tokenstats__graphs-titile {
+    font-size: 35px;
+    width: calc(100% - 80px);
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.tokenstats__online {
+    border: 1px solid #8c8c8c;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1091px;
+    margin-right: 30px;
+}
+
+.tokenstats__online-text {
+    font-size: 24px;
+}
+
+.tokenstats__online-viewers_purple {
+    color: rgb(107, 0, 169);
+}
+
+.tokenstats__online-viewers {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.tokenstats__bonus {
+    width: 100%;
+    max-width: 1091px;
+    border: 1px solid #8c8c8c;
+    padding-bottom: 148px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.tokenstats__info {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #8c8c8c;
+    padding: 0 40px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+.bonus__pepe {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.bonus__status {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.bonus__sell {
+    text-align: center;
+    font-size: 28px;
+    color: #078303;
+    font-weight: 600;
+}
+
+.bonus__progress {
+    width: 100%;
+    max-width: 517px;
+    height: 21px;
+    border: 3px solid #078303;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.tokenstats__works {
+    border: #8c8c8c 2px solid;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin: 51px 0 37px;
+    padding: 30px 80px;
+}
+
+.works__header {
+    margin-top: 0;
+    font-size: 45px;
+}
+
+.works__subtitle {
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.works__text {
+    font-size: 34px;
+    color: #8c8c8c;
+    letter-spacing: -0.04em;
+}
+
+.tokenstats__online-graph {
+    width: calc(100% - 80px);
+    margin: 0 auto;
+}
+
+.bonus__graph {
+    position: absolute;
+    width: calc(100% - 80px);
+    left: 4%;
+}
+
+.mytoken__container {
+    width: calc(100% - 200px);
+    margin: 0 auto;
+    max-width: 2267px;
+}
+
+@media screen and (max-width: 2300px) {
+    .tokenstats__online-graph {
+        width: calc(100% - 40px);
+    }
+
+    .tokenstats__cost {
+        font-size: 40px;
+        margin-right: 15px;
+    }
+
+    .tokenstats__variation {
+        font-size: 24px;
+    }
+
+    .tokenstats__period-element {
+        font-size: 22px;
+        margin-right: 15px;
+    }
+
+    .tokenstats__info-text {
+        padding: 0 25px;
+        font-size: 25px;
+        margin: 35px 0;
+    }
+
+    .tokenstats__exclamation {
+        margin-right: 15px;
+        width: 30px;
+    }
+
+    .tokenstats__buy-title {
+        font-size: 35px;
+    }
+
+    .tokenstats__buy-subtitle {
+        font-size: 27px;
+    }
+
+    .tokenstats__token-count {
+        font-size: 200px;
+    }
+    
+    .works__header {
+        font-size: 40px;
+    }
+
+    .works__subtitle {
+        font-size: 30px;
+    }
+
+    .works__text {
+        font-size: 30px;
+    }
+
+    .tokenstats__header {
+        margin-top: 40px;
+        margin-bottom: 60px;
+        width: calc(100% - 50px);
+    }
+
+    .tokenstats__pepe {
+        width: 120px;
+        margin-bottom: 55px;
+    }
+
+    .trends__wrapper {
+        padding: 40px 0;
+    }
+
+    .tokenstats__trends {
+        height: auto;
+    }
+
+    .tokenstats__trend-text {
+        margin: 40px 0;
+    }
+
+    .tokenstats__trend {
+        margin-bottom: 40px;
+    }
+
+    .tokenstats__btn-buy {
+        height: 120px;
+    }
+
+    .tokenstats__partion {
+        margin: 40px auto 70px;
+    }
+
+    .tokenstats__sell {
+        font-size: 30px;
+    }
+
+    .tokenstats__nick {
+        font-size: 35px;
+    }
+
+    .tokenstats__token-title {
+        font-size: 35px;
+    }
+
+    .tokenstats__my {
+        height: auto;
+    }
+
+    .statistic__title {
+        font-size: 26px;
+    }
+    .statistic__table-text {
+        font-size: 26px;
+    }
+
+    .tokenstats__contacts-container {
+        width: calc(100% - 60px);
+    }
+
+    .tokenstats__online-viewers {
+        font-size: 22px;
+    }
+
+    .tokenstats__works {
+        padding: 20px 50px;
+    }
+
+    .tokenstats__buy {
+        height: auto;
+    }
+
+    .tokenstats__button-container {
+        padding-bottom: 40px;
+    }
+
+    .tokenstats__tokens-info {
+        padding-top: 20px;
+    }
+
+    .tokenstats__statistic {
+        padding-bottom: 30px;
+    }
+
+    .tokenstats__abouttoken {
+        gap: 47px 37px;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .tokenstats__button-container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .tokenstats__abouttoken {
+        grid-template-areas: 
+            "my my"
+            "buy trends";
+            
+    }
+
+    .tokenstats__container {
+        width: 100%;
+    }
+
+    .tokenstats__buy-container {
+        width: 100%;
+        max-width: 778px;
+        grid-area: buy;
+    }
+
+    .trends__wrapper {
+        width: calc(100% - 40px);
+        padding: 25px 0;
+    }
+
+    .tokenstats__trend-tokens {
+        font-size: 20px;
+    }
+
+    .tokenstats__trend-text {
+        font-size: 18px;
+        margin: 20px 0;
+    }
+
+    .tokenstats__trend-avatar {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    .tokenstats__trend-nick {
+        font-size: 16px;
+    }
+
+    .tokenstats__trend-name {
+        font-size: 18px;
+    }
+
+    .tokenstats__trend-cost {
+        font-size: 18px;
+    }
+
+    .tokenstats__trend-views {
+        font-size: 16px;
+    }
+
+    .tokenstats__trend-button {
+        font-size: 24px;
+    }
+
+    .tokenstats__buy-title {
+        font-size: 20px;
+    }
+
+    .tokenstats__buy-subtitle {
+        font-size: 18px;
+        margin: 15px 0 15px;
+    }
+
+    .tokenstats__token-count {
+        font-size: 150px;
+    }
+
+    .tokenstats__btn-buy {
+        height: 70px;
+        font-size: 22px;
+    }
+
+    .works__header {
+        font-size: 25px;
+    }
+
+    .works__subtitle {
+        font-size: 20px;
+    }
+
+    .works__text {
+        font-size: 18px;
+    }
+
+    .tokenstats__works {
+        padding: 20px 30px;
+    }
+
+    .tokenstats__wrapper {
+        width: calc(100% - 100px);
+    }
+    
+    .mytoken__container {
+        width: calc(100% - 100px);
+    } 
+
+    .tokenstats__cost {
+        font-size: 30px;
+    }
+
+    .tokenstats__variation {
+        font-size: 20px;
+    }
+
+    .tokenstats__period-element {
+        font-size: 18px;
+    }
+
+    .tokenstats__pepe {
+        width: 80px;
+    }
+
+    .tokenstats__info {
+        padding: 0 20px;
+    }
+
+    .tokenstats__info-text {
+        font-size: 18px;
+    }
+
+    .tokenstats__exclamation {
+        width: 20px;
+    }
+
+    .tokenstats__sell {
+        font-size: 20px;
+    }
+
+    .tokenstats__partion {
+        height: 30px;
+    }
+
+    .tokenstats__nick {
+        font-size: 20px;
+    }
+
+    .tokenstats__token-title {
+        font-size: 20px;
+    }
+
+    .tokenstats__logo {
+        width: 25px;
+    }
+
+    .statistic__title {
+        font-size: 18px;
+    }
+
+    .statistic__table-text {
+        font-size: 18px;
+    }
+
+    .title__question {
+        width: 18px;
+    }
+
+    .tokenstats__graphs-titile {
+        font-size: 20px;
+        width: calc(100% - 40px);
+    }
+
+    .tokenstats__online-text {
+        font-size: 18px;
+    }
+
+    .bonus__progress {
+        width: 80%;
+    }
+
+    .bonus__status {
+        font-size: 20px;
+    }
+
+    .tokenstats__online-viewers {
+        font-size: 18px;
+    }
+
+    .bonus__sell {
+        font-size: 18px;
+    }
+
+    .tokenstats__trend {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 909px) {
+
+    .tokenstats__abouttoken {
+        display: flex;
+        flex-direction: column;
+        gap: 47px 0;
+        grid-template-columns: 1fr;
+    }
+
+    .tokenstats__buy {
+        max-width: none;
+    }
+
+    .tokenstats__buy-container {
+        max-width: none;
+    }
+
+    .tokenstats__trends {
+        max-width: none;
+    }
+    
+    .tokenstats__graphs {
+        flex-direction: column;
+    }
+
+    .tokenstats__online {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .tokenstats__info-text {
+        font-size: 16px;
+        margin: 15px 0;
+    }
+
+    .tokenstats__exclamation {
+        margin-right: 10px;
+    }
+
+    .tokenstats__contacts-container {
+        padding-top: 20px;
+        width: calc(100% - 40px);
+    }
+
+    .tokenstats__sell {
+        font-size: 18px;
+    }
+
+    .tokenstats__partion {
+        margin: 20px auto 40px;
+    }
+
+    .tokenstats__nick {
+        font-size: 18px;
+    }
+
+    .tokenstats__logo-container {
+        margin: 20px 0 40px;
+    }
+
+    .tokenstats__statistic {
+        padding-bottom: 20px;
+        margin-top: 40px;
+    }
+
+    .tokenstats__token-title {
+        font-size: 18px;
+    }
+
+    .statistic__title {
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+
+    .statistic__table-text{
+        font-size: 16px;
+        padding-bottom: 25px;
+    }
+    
+    .tokenstats__period-element {
+        font-size: 14px;
+    }
+
+    .tokenstats__pepe {
+        width: 55px;
+    }
+
+    .tokenstats__cost {
+        font-size: 20px;
+    }
+
+    .tokenstats__variation {
+        font-size: 16px;
+    }
+
+    .tokenstats__buy-title {
+        font-size: 18px;
+    }
+
+    .tokenstats__buy-subtitle {
+        font-size: 16px;
+    }
+
+    .tokenstats__token-count {
+        font-size: 100px;
+    }
+
+    .tokenstats__buy-subtitle {
+        font-size: 14px;
+        margin: 10px 0 10px;
+    }
+
+    .tokenstats__btn-buy {
+        font-size: 18px;
+        width: calc(100% - 150px);
+    }
+
+    .tokenstats__trend-button {
+        margin-top: 15px;
+        padding-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .works__header {
+        font-size: 18px;
+    }
+
+    .works__subtitle {
+        font-size: 16px;
+    }
+
+    .works__text {
+        font-size: 14px;
+    }
+
+    .tokenstats__works {
+        padding: 10px 15px;
+    }
+
+    .mytoken__container {
+        width: calc(100% - 40px);
+    }
+
+    .tokenstats__wrapper {
+        width: calc(100% - 40px);
+    }
+
+    .title__question {
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 529px) {
+    .statistic__title {
+        font-size: 12px;
+    }
+
+    .statistic__table-text {
+        font-size: 12px;
+    }
+
+    .title__question {
+        width: 12px;
+    }
+
+    .tokenstats__cost {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+
+    .tokenstats__header {
+        width: calc(100% - 20px);
+    }
+
+    .tokenstats__variation {
+        font-size: 14px;
+    }
+
+    .tokenstats__period-element {
+        font-size: 10px;
+        margin-right: 5px;
+    }
+
+    .tokenstats__btn-buy {
+        width: 90%;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .tokenstats__trend-nick {
+        font-size: 14px;
+    }
+
+    .tokenstats__trend-name {
+        font-size: 15px;
+    }
+
+    .tokenstats__trend-views {
+        font-size: 14px;
+    }
+
+    .tokenstats__trend-text {
+        font-size: 14px;
+    }
+
+    .tokenstats__online-text {
+        font-size: 14px;
+    }
+
+    .tokenstats__online-text:first-of-type {
+        margin-right: 5px;
+    }
+
+    .tokenstats__online-viewers {
+        font-size: 14px;
+    }
+
+    .bonus__status {
+        font-size: 18px;
+    }
+
+    .bonus__sell {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,336 @@
+.header {
+    color: black;
+    border-bottom: 2px solid #d5d5d5;
+    padding-top: 69px;
+    padding-bottom: 13px;
+}
+
+.header__wrapper {
+    display: flex;
+    max-width: 2267px;
+    margin: 0 auto;
+    width: calc(100% - 200px);
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin-right: 149px;
+    vertical-align: middle;
+}
+
+.header__container {
+    display: flex;
+}
+
+.header__user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__link-list {
+    list-style: none;
+    display:inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.header__link-element {
+    display: inline;
+    vertical-align: middle;
+    font-size: 35px;
+    line-height: 1.2;   
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    transition: opacity ease-in-out .4s;
+    cursor: pointer;
+}
+
+.header__link {
+    text-decoration: none;
+    color: black;
+}
+
+.header__link-element:hover {
+    opacity: .4;
+}
+
+.header__link-element:first-of-type {
+    margin-right: 86px;
+}
+
+.header__link-element:nth-of-type(2) {
+    margin-right: 89px;
+}
+
+.header__link-element:nth-of-type(3) {
+    margin-right: 109px;
+}
+
+.header__link-element:last-of-type {
+    margin-right: 0;
+}
+
+.header__username {
+    display: block;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    margin-bottom: 32px;
+}
+
+.header__balance {
+    display: block;
+    font-size: 35px;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    color: #646464;
+}
+
+.header__button {
+    width: 294px;
+    height: 92px;
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    border: 3px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    transition: border-color ease-in-out .3s,
+                opacity ease-in-out .3s;
+}
+
+.header__button:hover {
+    opacity: .7;
+}
+
+.header__button_twitch {
+    border-color:rgb(107, 40, 208);
+    color: #6b28d0;
+    margin-right: 47px;
+}
+
+.header__button_goggle:hover {
+    border-color: rgba(0, 0, 0, .4);
+}
+
+.header__button_twitch:hover {
+    border-color: rgba(107, 40, 208, .4);
+}
+
+@media screen and (max-width: 2300px) {
+    .header {
+        padding-top: 49px;
+    }
+
+    .header__link-element:last-of-type {
+        margin-right: 20px;
+    }
+
+    .header__username {
+        font-size: 25px;
+    }
+
+    .header__balance {
+        font-size: 25px;
+    }
+
+    .header__button {
+        width: 250px;
+        height: 70px;
+        font-size: 20px;
+    }
+
+    .header__link-element {
+        font-size: 20px;
+    }
+
+    .header__link-element:first-of-type {
+        margin-right: 50px;
+    }
+
+    .header__link-element:nth-child(2) {
+        margin-right: 59px;
+    }
+
+    .header__logo {
+        width: 230px;
+        margin-right: 70px;
+    }
+
+    .header__button_twitch {
+        margin-right: 35px;
+    }
+}
+
+@media screen and (max-width: 1919px) {
+    .header__button {
+        width: 220px;
+        height: 70px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1701px) {
+    .header__link-list {
+        margin-top: 30px;
+    }
+
+    .header__navigation {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .header {
+        padding-top: 40px;
+    }
+    .header__wrapper {
+        width: calc(100% - 150px);
+    }
+
+    .header__logo {
+        width: 190px;
+    }
+
+    .header__container {
+        flex-direction: column;
+    }
+
+    .header__button_twitch {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .header__link-element:first-of-type {
+        font-size: 18px;
+        margin-right: 25px;
+    }
+
+    .header__link-element:nth-child(2) {
+        font-size: 18px;
+        margin-right: 25px;
+        font-size: 18px;
+    }
+
+    .header__link-element:nth-of-type(3) {
+        margin-right: 25px;
+    }
+
+    .header__link-element:last-of-type {
+        margin-right: 0;
+        font-size: 18px;
+    }
+
+    .header__username {
+        font-size: 20px;
+    }
+
+    .header__balance {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .header__link-element {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .header__wrapper {
+        width: calc(100% - 40px);
+        flex-wrap: wrap;
+    }
+
+    .header__logo {
+        width: 140px;
+    }
+
+    .header__link-element:nth-of-type(3) {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+    .header__link-element:first-of-type {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+    .header__link-element:nth-child(2) {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+    .header__link-element:last-of-type {
+        font-size: 15px;
+        margin-right: 10px  ;
+    }
+
+    .header__button {
+        width: 140px;
+        font-size: 13px;
+        height: 50px;
+    }
+
+    .header__username {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .header__balance {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .header__wrapper {
+        flex-direction: column;
+    }
+
+    .header__link-element:first-of-type {
+        font-size: 13px;
+    }
+
+    .header__link-element:nth-child(2) {
+        font-size: 13px;
+    }
+
+    .header__link-element:nth-child(3) {
+        font-size: 13px;
+    }
+
+    .header__link-element:last-of-type {
+        font-size: 13px;
+    }
+
+    .header__container {
+        margin-top: 10px;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .header__button_twitch {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 389px) {
+    .header {
+        padding-top: 30px;
+    }
+    
+    .header__button {
+        width: 130px;
+    }
+
+    .header__link-list {
+        margin-top: 15px;
+    }
+}
